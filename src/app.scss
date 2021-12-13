@@ -1,0 +1,14 @@
+@import "./variables";
+
+body {
+  z-index: 0;
+  background-image: url("./images/tim-mossholder-P14gzsw3YsU-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+footer {
+  color: white;
+  font-weight: bold;
+}

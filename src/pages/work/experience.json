@@ -1,0 +1,54 @@
+{
+    "jobExperience": [
+        {
+            "_id": 0,
+            "title": "BBC News",
+            "job": "Fullstack Software Engineer",
+            "points": ["Working closely with UX designers, researchers, product managers, testers and other engineers in implementing excellent user experience and finding way to make voters more engaged in elections"], 
+            "skills": ["React.JS, Go"]
+        },
+        {
+            "_id": 1,
+            "title": "BBC Archive Services",
+            "job": "Fullstack Software Engineer",
+            "points": ["Helping in building internal search engine"],
+            "skills":["React.JS, Node.JS, AWS, Elastic Search"]
+        },
+        {
+            "_id": 2,
+            "title": "Edinburgh Napier University",
+            "job": "Student Assistant for Data Analytics Module",
+            "points": ["Helping students to understand Data Analytics, including different approaches and algorithms"],
+            "skills":["R, R Studio, Weka"]
+        },
+        {
+            "_id": 3,
+            "title": "Computer Application Services",
+            "job": "Software Engineering Intern",
+            "points": ["My summer project was developing  tracking tool focused on gathering user data regarding how users are using Workpro software in their everyday tasks. After gathering, the data is sent via web services to the database creating a new table. All the information in this table later is used for generating bar charts and Sankey diagrams on the website, in order to visualize the user's journey and usage of each feature per user."],
+            "skills":["C#, .NET, JavaScript"]
+        },
+        {
+            "_id": 4,
+            "title": "University of Edinburgh",
+            "job": "Finance Helpdesk Officer (Year long placement)",
+            "points": ["Helping users with using financial systems in the University of Edinburgh, often with the use of remote desktop control (Bomgar) or PL/SQL", "Fixing and helping in managing database"],
+            "skills":["Excel, PL/SQL"]
+        }
+    ], 
+    "education": [
+        {
+            "_id": 0,
+            "institution": "Edinburgh Napier University",
+            "course":"BEng Computing",
+            "grade": "2:1",
+            "final_project": "Dissertation: Proof of Concept - Android Mobile Application for Customised Tourism"
+        },
+        {
+            "_id": 1,
+            "institution": "West College Scotland",
+            "course":"Computer Games Development",
+            "grade":"HNC & HND"
+        }
+    ]
+}

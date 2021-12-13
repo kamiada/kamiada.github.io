@@ -1,0 +1,119 @@
+{
+    "projectsDescriptions": [
+        {
+            "_id": 0,
+            "title": "Periodic Table",
+            "tags": [
+                "React.Js",
+                "Frontend"
+            ],
+            "post": "The purpose of this project was to learn more about CSS properties and React. I wanted to build something which could be used for free by students who want to learn about Periodic Table, and have this information easy to access and in visually pleasant form.\n During building the Table I found ways of how to do it, but sadly I settled with manual adding elements due to interactivity. In order to place elements in correct way, I decided to use grid in CSS : it was easier for visualisation and placement of non empty cells into the table. ",
+            "github": "https://github.com/kamiada/Mendeleev-Table"
+        },
+        {
+            "_id": 1,
+            "title": "Covid-19 dashboards!",
+            "tags": [
+                "React.Js",
+                "Chart.JS",
+                "Node.JS",
+                "JavaScript"
+            ],
+            "alt":"Screenshot of mini-project about dashboard for covid19 data",
+            "post": "I started this side project in January 2021, after a year of lockdowns in UK, in order to have visual way to compare the statistics and to learn about Chart.JS library for JavaScript. There are other programming libraries which are using even better looking charts, but I liked the simplicity of that one. The data for this project was taken from  European Centre for Disease Prevention and Control. The main challange in this project was to create filters, which would allow user to filter per interesting for them countries, months and parameters; and manipulating data so it could fit different charts.",
+            "github": "https://github.com/kamiada/chart_dashboard"
+        },
+        {
+            "_id": 2,
+            "title": "Live!",
+            "tags": [
+                "React.Js",
+                "Python",
+                "Flask",
+                "AWS"
+            ],
+            "alt":"Screenshot of the web app from BBC hackathon",
+            "post": "The theme of BBC Platform Hackathon 2020 was connection - between people inside our organisation, especially in 2020, during the global pandemy and lockdown in United Kingdom. Therefore me and my team decided to create web application which could be repository for zoom calls across the BBC. The zoom calls would be both social calls, demonstrations of the product, meet ups, tech chats and other possibile forms of conversations about different topic. This could help people to connect, easy up knowledge sharing, socialise in safe way and learn new things. The web application would hold zoom link, the theme of the call and the amount of people currently in it - this could be helpful for people who are deeply introverted or shy. More than that, the web app would have tags based filters, generated depending to tags added to the call. Below the zoom calls we would have timeline with upcoming events and option to click on them and download outlook date-time reminder for calendars. During the Hackathon, me and my team managed to build both frontend and backend of the app. Due to the fact that I was the only person with front end knowledge, I dealt with design and build of this part of the application. Thanks to that, me and two other engineers managed to build the frontend and even add some simple CSS animation. The backend was Python+Flask API and instead of a database we used JSON file in order to build the app on time. We managed to win second place in the Hackathon and present our work during the BBC Platform Conference 2020",
+            "github": "https://github.com/bbc/hackathon2020/tree/8-hacking-circus/8-hacking-circus/frontend/live"
+        },
+        {
+            "_id": 3,
+            "title": "Mobile app for customised tourism",
+            "tags": [
+                "Android",
+                "Java",
+                "Mobile App",
+                "UX/UI"
+            ],
+            "post": "The inspiration for this project was my fascination with history and visiting beautiful city of Budapest and experiencing few Fringe Festivals in Edinburgh. During this time city was extremely overcrowded which was making living in it highly difficult - Edinburgh is an old medieval city and most of the famous tourist attractions are in the center of it, close to the Castle. Having a mobile app which could help you discover less known or popular places, tailored to what you need could improve the experience of visiting new city and make it more familiar and friendly for the person. During this project I needed to learn both Android Studio development and Java for mobile applications, in the mean time also managing my university work. My project was also presented during Ada Lovelace Colloquium (for that please check links below).",
+            "outsideLinks": ["https://bcswomenlovelace.bcs.org/?page_id=286", "https://bcswomenlovelace.bcs.org/wp-content/uploads/Abstractbook2020BCSWomen_Lovelace_Colloquium.pdf"]
+        },
+        {
+            "_id": 4,
+            "title": "Tracker",
+            "tags": [
+                "C#.Net",
+                "Data gathering",
+                "JavaScript",
+                "Data Visualisation",
+                "SQL"
+            ],
+            "post": "Tracker (or more accuretly: trackers) are my internship project which I have done for Computer Application Services in Edinburgh, during summer 2019. CAS has it's software WorkPro focused on integrating with web forms, social media and company systems, allowing HR and other this type of departments better workflow - both for them and their users. But in order to improve WorkPro and understand how users are using it - what features are the most popular, what features are rarely used or even should be removed, we needed a data about users behaviour. Therefore, my project was focused on gathering this data, by creating trackers on each page, which user enters. When users move to another page - tracker dies and sends info to our database, with user's randomly generated id. Then on next page on which user is, new tracker is following user, till again, user moves to another page and so on. The data then is used to generate Sankey diagram with use of Google Charts (JS library for generating graphs and diagrams). This project taught me a lot about data analytics, data gathering and working on large, old codebases like the one for WorkPro. Most of the programming was done with use of C#.Net and in some parts - JavaScript. The most challanging part of the project was flattening data - Google Charts requires for Sankey flat data with no repeating 'locations'. I am proud to say, that by the September the project was working and performing and in 2020, was officially added to WorkPro as one of the admin features to collect users behaviour for better performance of the software"
+        },
+        {
+            "_id": 5,
+            "title": "Panda Mediator",
+            "tags": [
+                "Unity",
+                "Game",
+                "C#",
+                "Point & Click",
+                "Time constraints"
+            ],
+            "post": "The theme of the Global Game Jam in January 2020 where relationships, therefore over the weekend me and my friend build this little game. My friend Marco took care of the design and art, while I programmed the game and sorted other things in Unity Engine. In game player plays the Panda Mediator, who's task is to fulfil the wishes of the Crocodile Dictator over the phone. Player needs to run around the room and randomly pick food which Dictator wants, but his needs changes very quickly. Game is set for the player to fail no matter what, because it's impossible to fulfil the needs of the dictator, no matter how hard player tries.",
+            "links": [
+                "https://globalgamejam.org/2020/games/panda-mediator-6"
+            ],
+            "github": "https://github.com/kamiada/GameJam2020"
+        },
+        {
+            "_id": 6,
+            "title": "Arctica",
+            "tags": [
+                "Unity",
+                "Game",
+                "C#",
+                "Web"
+            ],
+            "post": "The theme of the Global Game Jam in January 2019 was home, which made me think about my home region in Poland - Silesia, a place which struggles with big pollution problems. This made me and my team think about pollution around the world and what it does to it. In effect me and my three other teammates created this game called Arctica, which is available on itch.io page of my friend Toran. My part during creation of this project was animating characters in Unity and a bit of programming for interface. In the game player needs to feed alone polar bear with penguins and seals on the iceberg, while the iceberg is quickly breaking apart. This was to show how real life polar bears must feel rigth now and how big is the problem of the global warming.",
+            "links": [
+                "https://torantula.itch.io/arctica"
+            ]
+        },
+        {
+            "_id": 7,
+            "title": "Feel my feels",
+            "tags": [
+                "Unity",
+                "Game",
+                "C#",
+                "Multiplayer"
+            ],
+            "post": "The theme of the Global Game Jam in January 2018 where feelings. Me and my other three teammates decided to build multiplayer game where users needs to make the other person feel same way how they feel - due to the short time our extremely talented artist managed to create just two feelings-character: love and anger. Players can use controllers to control them and steal from each other little followers who change their appearance depending to which feeling dominates them. The swift and difficult movement adds playablity to the game and more fun (at least in my opinion). My work during this project was programming alongside two other programmers. I was taking care of the player's characters, while my other teammate was programming menu and another one AI for followers.",
+            "links": [
+                "https://kamiada.itch.io/feel-my-feels"
+            ],
+            "github": "https://github.com/marcomoroni/ggj-2018"
+        },
+        {
+            "_id": 8,
+            "title":"Redesign of Natural History Museum webpage",
+            "tags": [
+                "React.JS",
+                "UX/UI",
+                "Node.JS"
+            ],
+            "github":"https://github.com/kamiada/Natural-History-Museum-in-React"
+        }
+    ]
+}

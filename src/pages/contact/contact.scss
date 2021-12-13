@@ -1,0 +1,45 @@
+@import "../../variables";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+.contact_container {
+  // background-color: #2F80ED;
+  background: #2f80ed; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #2f80ed,
+    #000046
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #2f80ed,
+    #000046
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+.border {
+    color: white;
+    border: 1px solid white;
+    width: 500px;
+    margin-top: 5px;
+}
+.link_container {
+    width: 250px;
+    height: 200px;
+    background-color: transparent;
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    img {
+
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+}

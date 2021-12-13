@@ -1,0 +1,35 @@
+@import "../../variables";
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: auto auto 180px auto;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 20px;
+}
+.projects-container {
+  display: flex;
+  background-color: #2F80ED;
+  text-align: center;
+}
+.panel-container {
+  padding: 10px;
+}
+.section_title_projects {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 40px;
+  border-bottom: 2px solid white;
+  color: white;
+  background-color: #2F80ED;
+  padding-top: 12%;
+  text-align: center;
+}
