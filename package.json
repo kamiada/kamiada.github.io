@@ -1,6 +1,6 @@
 {
-  "name": "green-aesthetic",
-  "homepage": "https://kamiada.github.io/GreenAesthetic/",
+  "name": "portfolio",
+  "homepage": "https://kamiada.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
