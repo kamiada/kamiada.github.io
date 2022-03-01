@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eb8dcfee.chunk.css",
-    "main.js": "/portfolio/static/js/main.aa3219eb.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.aa3219eb.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.4bc91470.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4bc91470.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b2e161a4.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b2e161a4.js.map",
     "static/js/2.e7fb0e3d.chunk.js": "/portfolio/static/js/2.e7fb0e3d.chunk.js",
@@ -22,6 +22,7 @@
     "static/media/NHM.4b0dd12e.png": "/portfolio/static/media/NHM.4b0dd12e.png",
     "static/media/React App.d5fb4454.png": "/portfolio/static/media/React App.d5fb4454.png",
     "static/media/Screenshot 2021-11-27 at 18.17.45.83487f08.png": "/portfolio/static/media/Screenshot 2021-11-27 at 18.17.45.83487f08.png",
+    "static/media/TheDualityofChoice.d6ddf96c.png": "/portfolio/static/media/TheDualityofChoice.d6ddf96c.png",
     "static/media/UniversityEdinburgh.25b85b1a.png": "/portfolio/static/media/UniversityEdinburgh.25b85b1a.png",
     "static/media/WestCollegeScotland.13817da5.png": "/portfolio/static/media/WestCollegeScotland.13817da5.png",
     "static/media/dashboards.bab7311b.png": "/portfolio/static/media/dashboards.bab7311b.png",
@@ -33,6 +34,6 @@
     "static/js/runtime-main.b2e161a4.js",
     "static/js/2.e7fb0e3d.chunk.js",
     "static/css/main.eb8dcfee.chunk.css",
-    "static/js/main.aa3219eb.chunk.js"
+    "static/js/main.4bc91470.chunk.js"
   ]
 }
