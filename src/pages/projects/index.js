@@ -10,10 +10,10 @@ import {
   FeelMyFeels,
   PandaMediator,
   Dashboards,
+  DualityOfChoice,
 } from "../../images";
 import "./projects.scss";
 import projects from "./projects.json";
-
 
 const Projects = () => {
   return (
@@ -82,6 +82,13 @@ const Projects = () => {
             projectTitle={projects.projectsDescriptions[8].title}
             link={projects.projectsDescriptions[8].github}
             tags={projects.projectsDescriptions[8].tags}
+          />
+          <Panel
+            image={DualityOfChoice}
+            alt="Text game for Global Game Jam 2022"
+            projectTitle={projects.projectsDescriptions[9].title}
+            link={projects.projectsDescriptions[9].github}
+            tags={projects.projectsDescriptions[9].tags}
           />
         </div>
       </div>

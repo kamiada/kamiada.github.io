@@ -114,6 +114,16 @@
                 "Node.JS"
             ],
             "github":"https://github.com/kamiada/Natural-History-Museum-in-React"
+        },
+        {
+            "_id": 9,
+            "title":"The Duality of Choice",
+            "tags": [
+                "React.JS",
+                "UX/UI",
+                "Node.JS"
+            ],
+            "github":"https://github.com/kamiada/RainyDayAdventure"
         }
     ]
 }
