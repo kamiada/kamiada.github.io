@@ -15,9 +15,9 @@ const aboutMe = () => {
           </div>
           <div className="text_container">
             <p>
-              I work as a full-stack software engineer for BBC News, in Elections Team.
+              I work as a frontend mobile engineer for Stint.
               In my free time, I like to program in Unity, React and Python for fun, 
-              read books and learn about history.
+              read books, learn French and history.
               <br />
               <br />
               My interests are focused on the impact of technology on people's

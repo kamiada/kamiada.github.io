@@ -27,7 +27,7 @@ const Profile = () => {
             <div className="text-holder">
               <p>
                 Hello! My name is Adrianna. I am software engineer currently
-                working for BBC News
+                working for Stint
               </p>
             </div>
             <div class="profile-button-scroll">
