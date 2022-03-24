@@ -1,7 +1,7 @@
 import React from "react";
 import "./works.scss";
 import { Layout, Tile } from "../../components";
-import { BBCNews, BBC, Napier, CAS, WCS, UoE } from "../../images";
+import { BBCNews, BBC, Napier, CAS, WCS, UoE, Stint } from "../../images";
 import data from "./experience.json";
 
 const work = () => {
@@ -10,6 +10,14 @@ const work = () => {
       <div className="work_container" id="work">
         <div className="holder">
           <div className="section_title">Work Experience</div>
+          <Tile
+            image={Stint}
+            alt="logo of Stint"
+            company={data.jobExperience[5].title}
+            job_title={data.jobExperience[5].job}
+            points={data.jobExperience[5].points}
+            skills={data.jobExperience[5].skills}
+          />
           <Tile
             image={BBCNews}
             alt="logo of BBC News"

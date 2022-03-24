@@ -34,6 +34,13 @@
             "job": "Finance Helpdesk Officer (Year long placement)",
             "points": ["Helping users with using financial systems in the University of Edinburgh, often with the use of remote desktop control (Bomgar) or PL/SQL", "Fixing and helping in managing database"],
             "skills":["Excel, PL/SQL"]
+        },
+        {
+            "_id": 5,
+            "title": "Stint",
+            "job": "Frontend Mobile Engineer",
+            "points": ["Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"], 
+            "skills": ["React Native, TypeScript, Python, GraphQL"]
         }
     ], 
     "education": [
