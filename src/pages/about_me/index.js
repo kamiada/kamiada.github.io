@@ -17,7 +17,7 @@ const aboutMe = () => {
             <p>
               I work as a frontend mobile engineer for Stint.
               In my free time, I like to program in Unity, React and Python for fun, 
-              read books, learn French and history.
+              read books, learning French and history.
               <br />
               <br />
               My interests are focused on the impact of technology on people's
