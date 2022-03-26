@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eb8dcfee.chunk.css",
-    "main.js": "/portfolio/static/js/main.4bc91470.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4bc91470.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.b2e161a4.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b2e161a4.js.map",
-    "static/js/2.e7fb0e3d.chunk.js": "/portfolio/static/js/2.e7fb0e3d.chunk.js",
-    "static/js/2.e7fb0e3d.chunk.js.map": "/portfolio/static/js/2.e7fb0e3d.chunk.js.map",
-    "static/js/3.8a557c43.chunk.js": "/portfolio/static/js/3.8a557c43.chunk.js",
-    "static/js/3.8a557c43.chunk.js.map": "/portfolio/static/js/3.8a557c43.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.6cce7003.chunk.css",
+    "main.js": "/portfolio/static/js/main.19194868.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.19194868.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b05bcf52.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b05bcf52.js.map",
+    "static/js/2.68671d85.chunk.js": "/portfolio/static/js/2.68671d85.chunk.js",
+    "static/js/2.68671d85.chunk.js.map": "/portfolio/static/js/2.68671d85.chunk.js.map",
+    "static/js/3.65e73077.chunk.js": "/portfolio/static/js/3.65e73077.chunk.js",
+    "static/js/3.65e73077.chunk.js.map": "/portfolio/static/js/3.65e73077.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.eb8dcfee.chunk.css.map": "/portfolio/static/css/main.eb8dcfee.chunk.css.map",
-    "static/js/2.e7fb0e3d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e7fb0e3d.chunk.js.LICENSE.txt",
+    "static/css/main.6cce7003.chunk.css.map": "/portfolio/static/css/main.6cce7003.chunk.css.map",
+    "static/js/2.68671d85.chunk.js.LICENSE.txt": "/portfolio/static/js/2.68671d85.chunk.js.LICENSE.txt",
     "static/media/AdriannaKaminkaPosterFinal.d6a5b2da.png": "/portfolio/static/media/AdriannaKaminkaPosterFinal.d6a5b2da.png",
     "static/media/Arctica.2b651edd.png": "/portfolio/static/media/Arctica.2b651edd.png",
     "static/media/BBCNewsLogo.f7716454.png": "/portfolio/static/media/BBCNewsLogo.f7716454.png",
@@ -31,9 +31,9 @@
     "static/media/app.scss": "/portfolio/static/media/tim-mossholder-P14gzsw3YsU-unsplash.974ff12c.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2e161a4.js",
-    "static/js/2.e7fb0e3d.chunk.js",
-    "static/css/main.eb8dcfee.chunk.css",
-    "static/js/main.4bc91470.chunk.js"
+    "static/js/runtime-main.b05bcf52.js",
+    "static/js/2.68671d85.chunk.js",
+    "static/css/main.6cce7003.chunk.css",
+    "static/js/main.19194868.chunk.js"
   ]
 }
