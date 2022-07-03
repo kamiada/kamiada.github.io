@@ -1,6 +1,6 @@
 import * as React from "react";
 import PL from '../../text_lang/Polish.json';
-import ENG from '.../../text_lang/English.json';
+import ENG from '../../text_lang/English.json';
 import FR from '../../text_lang/French.json';
 
 export const dictionaryList = { ENG, FR, PL };
