@@ -1,11 +1,29 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import { Link } from "react-scroll";
 import "./components.scss";
+import { Switcher } from "./Switcher";
+import { LanguageContext } from "./Switcher/language-context";
 
-class Menu extends Component {
-  render() {
-    return (
-      <div className="menu-container">
+const Menu = () => {
+  const [language, setLanguage] = useState("ENG");
+  const toggleLanguage = () => {
+    setLanguage((language) => {
+      if (language === "ENG") {
+        console.log('pl');
+        return setLanguage("PL");
+      }
+      if (language === "PL") {
+        return setLanguage("FR");
+      }
+      if (language === "FR") {
+        return setLanguage("ENG");
+      }
+    });
+  };
+
+  return (
+    <div className="menu-container">
+      <LanguageContext.Provider value={{ language, toggleLanguage }}>
         <nav className="navbar">
           <ul>
             <li>
@@ -33,11 +51,14 @@ class Menu extends Component {
                 .contact
               </Link>
             </li>
+            <li>
+            <Switcher onClick={() => setLanguage()} />
+            </li>
           </ul>
         </nav>
-      </div>
-    );
-  }
-}
+      </LanguageContext.Provider>
+    </div>
+  );
+};
 
 export default Menu;
