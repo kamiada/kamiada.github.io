@@ -10,7 +10,8 @@
   flex-direction: column;
   font-family: "Source Sans Pro", sans-serif;
   padding-bottom: 100px;
-  margin-top: 7%;
+  // margin-top: 7%;
+  margin-top: -1%;
   background-color: #12c2e9; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
@@ -30,32 +31,21 @@
   }
 }
 
-.profile_circle {
-  border-radius: 50%;
-  height: 200px;
+.text-holder {
+  display: flex;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 50px;
+  align-items: center;
+  flex-direction: column;
   img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
-    z-index: 9;
-    position: absolute;
-    margin-top: 5%;
-  }
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-  margin-left: 20%;
-  margin-top: 10%;
-  margin-bottom: 0;
-  margin-right: 20%;
-}
+    padding-bottom: 20px;
 
-.text-holder {
-  width: 400px;
-  text-align: center;
-  margin-bottom: 50px;
+  }
 }  
 .profile-button-scroll {
   padding: 20px;
@@ -70,5 +60,4 @@
   padding-bottom: 20px;
   width: 100%;
   z-index: -1;
-  position: absolute;
 }
