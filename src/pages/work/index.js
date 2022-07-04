@@ -3,8 +3,9 @@ import "./works.scss";
 import { Layout, Tile } from "../../components";
 import { BBCNews, BBC, Napier, CAS, WCS, UoE, Stint } from "../../images";
 import data from "./experience.json";
+import { LanguageContext, dictionaryList } from "../../components/Switcher/language-context";
 
-const work = () => {
+const work = ({id}) => {
   return (
     <Layout>
       <div className="work_container" id="work">

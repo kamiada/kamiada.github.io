@@ -1,3 +1,18 @@
 {
-    "profile": "Cześć! Nazywam się Adrianna. Jestem programistką, obecnie pracującą w Stint"
+    "profile": "Cześć! Nazywam się Adrianna. Jestem programistką, obecnie pracującą w Stint",
+    "education": [
+        {
+            "_id": 0,
+            "institution": "Edinburgh Napier University",
+            "course": "BEng Computing",
+            "grade": "2:1",
+            "final_project": "Rozprawa: Proof of Concept — aplikacja mobilna do spersonalizowanej turystyki na Androida"
+        },
+        {
+            "_id": 1,
+            "institution": "West College Scotland",
+            "course": "Tworzenie Gier Komputerowych",
+            "grade": "HNC & HND"
+        }
+    ]
 }
