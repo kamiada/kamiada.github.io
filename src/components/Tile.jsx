@@ -12,13 +12,13 @@ class Tile extends Component {
           <span>{this.props.final_project}</span>
           {this.props.points &&
             this.props.points.map((point, key) => (
-              <p className="description_container" key={key}>
+              <p className="description_container" key={`${key}+${point}`}>
                 {point}
               </p>
             ))}
           {this.props.skills &&
-            this.props.skills.map((skill) => (
-              <span>Used technologies: {skill}</span>
+            this.props.skills.map((skill, key) => (
+              <span key={key}>Used technologies: {skill}</span>
             ))}
         </div>
         <div className="tile_img_container">

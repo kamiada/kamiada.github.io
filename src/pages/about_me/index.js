@@ -15,7 +15,7 @@ const aboutMe = () => {
             </div>
             <div className="text_container">
               <br />
-              <p>
+              <span>
                 I work as a frontend mobile engineer for Stint. My hobbies
                 includes:
                 <ul>
@@ -37,7 +37,7 @@ const aboutMe = () => {
                 <br />
                 To find out more about me scroll down 😊
                 <br />
-              </p>
+              </span>
             </div>
           </div>
         </div>

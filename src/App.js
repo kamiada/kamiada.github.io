@@ -1,12 +1,30 @@
 import { Profile, Projects, AboutMe, Work, Contact } from "../src/pages";
 import { Menu } from "../src/components";
 import "./app.scss";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
+import { Switcher } from "../src/components";
+import { LanguageContext } from "./components/Switcher/language-context";
 
 function App() {
+  const [language, setLanguage] = useState("ENG");
+  const toggleLanguage = () => {
+    setLanguage((language) => {
+      if (language === "ENG") {
+        return setLanguage("PL");
+      }
+      if (language === "PL") {
+        return setLanguage("FR");
+      }
+      if (language === "FR") {
+        return setLanguage("ENG");
+      }
+    });
+  };
   return (
+    <LanguageContext.Provider value={{ language, toggleLanguage }}>
     <Fragment>
       <div className="App">
+      <Switcher onClick={() => setLanguage()} />
         <Menu />
         <Profile />
         <AboutMe />
@@ -25,6 +43,8 @@ function App() {
       <span>&#169;</span> Adrianna Kaminska
       </footer>
     </Fragment>
+    </LanguageContext.Provider>
+
   );
 }
 
