@@ -1,5 +1,74 @@
 {
     "profile": "Cześć! Nazywam się Adrianna. Jestem programistką, obecnie pracującą w Stint",
+    "jobExperience": [
+        {
+            "_id": 0,
+            "title": "BBC News",
+            "job": "Fullstack Software Engineer",
+            "points": [
+                "Working closely with UX designers, researchers, product managers, testers and other engineers in implementing excellent user experience and finding way to make voters more engaged in elections"
+            ],
+            "skills": [
+                "React.JS, Go"
+            ]
+        },
+        {
+            "_id": 1,
+            "title": "BBC Archive Services",
+            "job": "Fullstack Software Engineer",
+            "points": [
+                "Brałam udział w projekcie, którego celem było stowrzenie nowego search engine dla zasobów medialnych w Archiwach"
+            ],
+            "skills": [
+                "React.JS, Node.JS, AWS, Elastic Search"
+            ]
+        },
+        {
+            "_id": 2,
+            "title": "Edinburgh Napier University",
+            "job": "Student Assistant for Data Analytics Module",
+            "points": [
+                "Byłam pomocnicą wykładowców na praktykach w uczeniu studentów algorytmów, data analytics, języka programistycznego R i badania daty. "
+            ],
+            "skills": [
+                "R, R Studio, Weka"
+            ]
+        },
+        {
+            "_id": 3,
+            "title": "Computer Application Services",
+            "job": "Software Engineering Intern",
+            "points": [
+                "My summer project was developing  tracking tool focused on gathering user data regarding how users are using Workpro software in their everyday tasks. After gathering, the data is sent via web services to the database creating a new table. All the information in this table later is used for generating bar charts and Sankey diagrams on the website, in order to visualize the user's journey and usage of each feature per user."
+            ],
+            "skills": [
+                "C#, .NET, JavaScript"
+            ]
+        },
+        {
+            "_id": 4,
+            "title": "University of Edinburgh",
+            "job": "Finance Helpdesk Officer (Year long placement)",
+            "points": [
+                "Helping users with using financial systems in the University of Edinburgh, often with the use of remote desktop control (Bomgar) or PL/SQL",
+                "Fixing and helping in managing database"
+            ],
+            "skills": [
+                "Excel, PL/SQL"
+            ]
+        },
+        {
+            "_id": 5,
+            "title": "Stint",
+            "job": "Frontend Mobile Engineer",
+            "points": [
+                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
+            ],
+            "skills": [
+                "React Native, TypeScript, Python, GraphQL"
+            ]
+        }
+    ],
     "education": [
         {
             "_id": 0,
