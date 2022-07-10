@@ -1,16 +1,35 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./works.scss";
 import { Layout, Tile } from "../../components";
 import { BBCNews, BBC, Napier, CAS, WCS, UoE, Stint } from "../../images";
 import data from "./experience.json";
-import { LanguageContext, dictionaryList } from "../../components/Switcher/language-context";
+import {
+  LanguageContext,
+  dictionaryList,
+} from "../../components/Switcher/language-context";
 
-const work = ({id}) => {
+const Work = ({ id, id2 }) => {
+  const { language } = useContext(LanguageContext);
+  const jobExperience = dictionaryList[language][id];
+  const educationb = dictionaryList[language][id2];
+
   return (
     <Layout>
       <div className="work_container" id="work">
         <div className="holder">
           <div className="section_title">Work Experience</div>
+          {jobExperience.length > 0
+            ? jobExperience.map((entry) => 
+                <Tile
+                  image={Stint}
+                  alt="logo of Stint"
+                  company={entry.title}
+                  job_title={entry.job}
+                  points={entry.points}
+                  skills={entry.skills}
+                />
+              )
+            : ""}
           <Tile
             image={Stint}
             alt="logo of Stint"
@@ -81,4 +100,4 @@ const work = ({id}) => {
     </Layout>
   );
 };
-export default work;
+export default Work;

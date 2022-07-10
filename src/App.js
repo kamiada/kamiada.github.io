@@ -28,7 +28,7 @@ function App() {
         <Menu />
         <Profile id="profile" />
         <AboutMe />
-        <Work />
+        <Work id="jobExperience" id2="education"/>
         <Projects />
         <Contact />
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
