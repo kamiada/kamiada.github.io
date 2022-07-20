@@ -15,7 +15,7 @@ const aboutMe = () => {
             </div>
             <div className="text_container">
               <br />
-              <span>
+              <span className="text_itself">
                 I work as a frontend mobile engineer for Stint. My hobbies
                 includes:
                 <ul>
