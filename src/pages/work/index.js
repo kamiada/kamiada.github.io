@@ -42,6 +42,7 @@ const Work = ({ id, id2 }) => {
           {jobExperience.length > 0
             ? jobExperience.map((entry) => (
                 <Tile
+                  key={entry.image}
                   image={generateImage(entry.title)}
                   alt={entry.image}
                   company={entry.title}
@@ -56,6 +57,7 @@ const Work = ({ id, id2 }) => {
           {educationb.length > 0
             ? educationb.map((entry) => (
                 <Tile
+                  key={entry.image}
                   image={generateImage(entry.institution)}
                   alt={entry.image}
                   company={entry.institution}

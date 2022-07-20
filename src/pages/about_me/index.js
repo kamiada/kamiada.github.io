@@ -2,11 +2,15 @@ import React, { useContext } from "react";
 import "./about_me.scss";
 import { photo } from "../../images";
 import { Layout } from "../../components";
-import { LanguageContext, dictionaryList } from "../../components/Switcher/language-context";
+import {
+  LanguageContext,
+  dictionaryList,
+} from "../../components/Switcher/language-context";
 
 const AboutMe = ({ id }) => {
-    const { language } = useContext(LanguageContext);
-    
+  const { language } = useContext(LanguageContext);
+  const data = dictionaryList[language][id];
+  console.log(data);
   return (
     <Layout>
       <div id="about" className="page_container">
@@ -19,6 +23,15 @@ const AboutMe = ({ id }) => {
             <div className="text_container">
               <br />
               <span className="text_itself">
+                {data.length > 0 ?
+                  data.map((entry) => (
+                    <>
+                      <p>{entry.introduction}</p>
+                      {/* <ul>
+                        <li>{entry.hobbies}</li>
+                      </ul> */}
+                    </>
+                  )): ""}
                 {/* I work as a frontend mobile engineer for Stint. My hobbies
                 includes:
                 <ul>
@@ -40,7 +53,6 @@ const AboutMe = ({ id }) => {
                 <br />
                 To find out more about me scroll down 😊
                 <br /> */}
-
               </span>
             </div>
           </div>
