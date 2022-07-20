@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import "./works.scss";
 import { Layout, Tile } from "../../components";
 import { BBCNews, BBC, Napier, CAS, WCS, UoE, Stint } from "../../images";
-import data from "./experience.json";
 import {
   LanguageContext,
   dictionaryList,

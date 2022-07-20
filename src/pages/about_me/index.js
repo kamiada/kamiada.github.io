@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./about_me.scss";
 import { photo } from "../../images";
 import { Layout } from "../../components";
+import { LanguageContext, dictionaryList } from "../../components/Switcher/language-context";
 
-const aboutMe = () => {
+const AboutMe = ({ id }) => {
+    const { language } = useContext(LanguageContext);
+    
   return (
     <Layout>
       <div id="about" className="page_container">
@@ -16,7 +19,7 @@ const aboutMe = () => {
             <div className="text_container">
               <br />
               <span className="text_itself">
-                I work as a frontend mobile engineer for Stint. My hobbies
+                {/* I work as a frontend mobile engineer for Stint. My hobbies
                 includes:
                 <ul>
                   <li>
@@ -36,7 +39,8 @@ const aboutMe = () => {
                 <br />
                 <br />
                 To find out more about me scroll down 😊
-                <br />
+                <br /> */}
+
               </span>
             </div>
           </div>
@@ -45,4 +49,4 @@ const aboutMe = () => {
     </Layout>
   );
 };
-export default aboutMe;
+export default AboutMe;
