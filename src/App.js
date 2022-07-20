@@ -27,7 +27,7 @@ function App() {
       <Switcher onClick={() => setLanguage()} />
         <Menu />
         <Profile id="profile" />
-        <AboutMe />
+        <AboutMe id="about_me"/>
         <Work id="jobExperience" id2="education"/>
         <Projects />
         <Contact />
