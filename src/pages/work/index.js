@@ -14,23 +14,26 @@ const Work = ({ id, id2 }) => {
   const educationb = dictionaryList[language][id2];
 
   const generateImage = (title) => {
-    if(title === "BBC News") {
+    if (title === "BBC News") {
       return BBCNews;
     }
-    if(title === "BBC Archive Services") {
+    if (title === "BBC Archive Services") {
       return BBC;
     }
-    if(title === "Computer Application Services"){
+    if (title === "Computer Application Services") {
       return CAS;
     }
-    if( title === "University of Edinburgh"){
+    if (title === "University of Edinburgh") {
       return UoE;
     }
-    if(title === "Stint"){
-      return Stint
+    if (title === "Stint") {
+      return Stint;
+    } 
+    if( title === "West College Scotland"){
+      return WCS;
     }
     else return Napier;
-  }
+  };
 
   return (
     <Layout>
@@ -38,7 +41,7 @@ const Work = ({ id, id2 }) => {
         <div className="holder">
           <div className="section_title">Work Experience</div>
           {jobExperience.length > 0
-            ? jobExperience.map((entry) => 
+            ? jobExperience.map((entry) => (
                 <Tile
                   image={generateImage(entry.title)}
                   alt={entry.image}
@@ -47,73 +50,22 @@ const Work = ({ id, id2 }) => {
                   points={entry.points}
                   skills={entry.skills}
                 />
+              ))
+            : ""}
+          <div className="section_title">Education</div>
+
+          {educationb.length > 0
+            ? educationb.map((entry) => (
+                <Tile
+                  image={generateImage(entry.institution)}
+                  alt={entry.image}
+                  company={entry.institution}
+                  job_title={entry.course}
+                  grade={entry.grade}
+                  final_project={entry.final_project}
+                />)
               )
             : ""}
-          <Tile
-            image={Stint}
-            alt="logo of Stint"
-            company={data.jobExperience[5].title}
-            job_title={data.jobExperience[5].job}
-            points={data.jobExperience[5].points}
-            skills={data.jobExperience[5].skills}
-          />
-          <Tile
-            image={BBCNews}
-            alt="logo of BBC News"
-            company={data.jobExperience[0].title}
-            job_title={data.jobExperience[0].job}
-            points={data.jobExperience[0].points}
-            skills={data.jobExperience[0].skills}
-          />
-          <Tile
-            image={BBC}
-            alt="logo of BBC"
-            company={data.jobExperience[1].title}
-            job_title={data.jobExperience[1].job}
-            points={data.jobExperience[1].points}
-            skills={data.jobExperience[1].skills}
-          />
-          <Tile
-            image={Napier}
-            alt="logo of Edinburgh Napier University"
-            company={data.jobExperience[2].title}
-            job_title={data.jobExperience[2].job}
-            points={data.jobExperience[2].points}
-            skills={data.jobExperience[2].skills}
-          />
-          <Tile
-            image={CAS}
-            alt="logo of CAS Ltd"
-            company={data.jobExperience[3].title}
-            job_title={data.jobExperience[3].job}
-            points={data.jobExperience[3].points}
-            skills={data.jobExperience[3].skills}
-          />
-          <Tile
-            image={UoE}
-            alt="logo of University of Edinburgh"
-            company={data.jobExperience[4].title}
-            job_title={data.jobExperience[4].job}
-            points={data.jobExperience[4].points}
-            skills={data.jobExperience[4].skills}
-          />
-
-          <div className="section_title">Education</div>
-          <Tile
-            image={Napier}
-            alt="logo of Edinburgh Napier University"
-            company={data.education[0].institution}
-            job_title={data.education[0].course}
-            grade={data.education[0].grade}
-            final_project={data.education[0].final_project}
-          />
-          <Tile
-            image={WCS}
-            alt="logo of West College Scotland"
-            company={data.education[1].institution}
-            job_title={data.education[1].course}
-            grade={data.education[1].grade}
-          />
         </div>
       </div>
     </Layout>

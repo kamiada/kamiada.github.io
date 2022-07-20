@@ -3,6 +3,17 @@
     "jobExperience": [
         {
             "_id": 0,
+            "title": "Stint",
+            "job": "Frontend Mobile Engineer",
+            "points": [
+                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
+            ],
+            "skills": [
+                "React Native, TypeScript, Python, GraphQL"
+            ]
+        },
+        {
+            "_id": 1,
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
             "points": [
@@ -13,7 +24,7 @@
             ]
         },
         {
-            "_id": 1,
+            "_id": 2,
             "title": "BBC Archive Services",
             "job": "Fullstack Software Engineer",
             "points": [
@@ -24,7 +35,7 @@
             ]
         },
         {
-            "_id": 2,
+            "_id": 3,
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
             "points": [
@@ -35,7 +46,7 @@
             ]
         },
         {
-            "_id": 3,
+            "_id": 4,
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
             "points": [
@@ -46,7 +57,7 @@
             ]
         },
         {
-            "_id": 4,
+            "_id": 5,
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
             "points": [
@@ -55,17 +66,6 @@
             ],
             "skills": [
                 "Excel, PL/SQL"
-            ]
-        },
-        {
-            "_id": 5,
-            "title": "Stint",
-            "job": "Frontend Mobile Engineer",
-            "points": [
-                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
-            ],
-            "skills": [
-                "React Native, TypeScript, Python, GraphQL"
             ]
         }
     ],

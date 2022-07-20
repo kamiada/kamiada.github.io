@@ -3,6 +3,18 @@
     "jobExperience": [
         {
             "_id": 0,
+            "image":"",
+            "title": "Stint",
+            "job": "Frontend Mobile Engineer",
+            "points": [
+                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
+            ],
+            "skills": [
+                "React Native, TypeScript, Python, GraphQL"
+            ]
+        },
+        {
+            "_id": 1,
             "image":"BBC News logo",
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
@@ -14,7 +26,7 @@
             ]
         },
         {
-            "_id": 1,
+            "_id": 2,
             "image":"BBC Archives Logo",
             "title": "BBC Archive Services",
             "job": "Fullstack Software Engineer",
@@ -26,7 +38,7 @@
             ]
         },
         {
-            "_id": 2,
+            "_id": 3,
             "image":"Logo of Edinburgh Napier University",
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
@@ -38,7 +50,7 @@
             ]
         },
         {
-            "_id": 3,
+            "_id": 4,
             "image":"",
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
@@ -50,7 +62,7 @@
             ]
         },
         {
-            "_id": 4,
+            "_id": 5,
             "image":"",
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
@@ -60,18 +72,6 @@
             ],
             "skills": [
                 "Excel, PL/SQL"
-            ]
-        },
-        {
-            "_id": 5,
-            "image":"",
-            "title": "Stint",
-            "job": "Frontend Mobile Engineer",
-            "points": [
-                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
-            ],
-            "skills": [
-                "React Native, TypeScript, Python, GraphQL"
             ]
         }
     ],
