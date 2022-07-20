@@ -3,6 +3,7 @@
     "jobExperience": [
         {
             "_id": 0,
+            "image":"BBC News logo",
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
             "points": [
@@ -14,6 +15,7 @@
         },
         {
             "_id": 1,
+            "image":"BBC Archives Logo",
             "title": "BBC Archive Services",
             "job": "Fullstack Software Engineer",
             "points": [
@@ -25,6 +27,7 @@
         },
         {
             "_id": 2,
+            "image":"Logo of Edinburgh Napier University",
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
             "points": [
@@ -36,6 +39,7 @@
         },
         {
             "_id": 3,
+            "image":"",
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
             "points": [
@@ -47,6 +51,7 @@
         },
         {
             "_id": 4,
+            "image":"",
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
             "points": [
@@ -59,6 +64,7 @@
         },
         {
             "_id": 5,
+            "image":"",
             "title": "Stint",
             "job": "Frontend Mobile Engineer",
             "points": [
@@ -72,6 +78,7 @@
     "education": [
         {
             "_id": 0,
+            "image":"",
             "institution": "Edinburgh Napier University",
             "course": "BEng Computing",
             "grade": "2:1",
@@ -79,6 +86,7 @@
         },
         {
             "_id": 1,
+            "image":"",
             "institution": "West College Scotland",
             "course": "Tworzenie Gier Komputerowych",
             "grade": "HNC & HND"

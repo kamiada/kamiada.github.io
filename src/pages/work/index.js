@@ -13,6 +13,25 @@ const Work = ({ id, id2 }) => {
   const jobExperience = dictionaryList[language][id];
   const educationb = dictionaryList[language][id2];
 
+  const generateImage = (title) => {
+    if(title === "BBC News") {
+      return BBCNews;
+    }
+    if(title === "BBC Archive Services") {
+      return BBC;
+    }
+    if(title === "Computer Application Services"){
+      return CAS;
+    }
+    if( title === "University of Edinburgh"){
+      return UoE;
+    }
+    if(title === "Stint"){
+      return Stint
+    }
+    else return Napier;
+  }
+
   return (
     <Layout>
       <div className="work_container" id="work">
@@ -21,8 +40,8 @@ const Work = ({ id, id2 }) => {
           {jobExperience.length > 0
             ? jobExperience.map((entry) => 
                 <Tile
-                  image={Stint}
-                  alt="logo of Stint"
+                  image={generateImage(entry.title)}
+                  alt={entry.image}
                   company={entry.title}
                   job_title={entry.job}
                   points={entry.points}
