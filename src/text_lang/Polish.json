@@ -93,7 +93,7 @@
         }
     ],
     "about_me": {
-        "introduction":"",
+        "introduction":"Obecnie pracuję jako full-stack software inżynier w Stincie, w Londynie. Moje hobby to:",
         "hobbies" : ["📚 Czytanie książek 📚"," ⚛️ Tworzenie osobistych projketów w Unity, React i Pythonie 🐍", "📜 Historia 🏺", "🇫🇷 Nauka języków obcych (obecnie uczę się francuskiego) 🇫🇷"],
         "interests": "Jestem zainteresowana wpływem technologii na ludzi i jak technologia może poprawić nasze życie.",
         "ending": "Aby dowiedzieć się więcej, zascrolluj poniżej 😊"
