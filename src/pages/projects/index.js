@@ -18,7 +18,7 @@ import projects from "./projects.json";
 const Projects = () => {
   return (
     <Layout>
-      <div className="section_title_projects">My Projects</div>
+      <div className="section_title_projects">My Personal Projects</div>
       <div className="projects-container" id="projects">
         <div className="table">
           <Panel
