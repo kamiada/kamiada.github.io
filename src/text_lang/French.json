@@ -3,6 +3,17 @@
     "jobExperience": [
         {
             "_id": 0,
+            "title": "Stint",
+            "job": "Frontend Mobile Engineer",
+            "points": [
+                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
+            ],
+            "skills": [
+                "React Native, TypeScript, Python, GraphQL"
+            ]
+        },
+        {
+            "_id": 1,
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
             "points": [
@@ -13,29 +24,29 @@
             ]
         },
         {
-            "_id": 1,
+            "_id": 2,
             "title": "BBC Archive Services",
             "job": "Fullstack Software Engineer",
             "points": [
-                "Brałam udział w projekcie, którego celem było stowrzenie nowego search engine dla zasobów medialnych w Archiwach"
+                "Helping in building internal search engine"
             ],
             "skills": [
                 "React.JS, Node.JS, AWS, Elastic Search"
             ]
         },
         {
-            "_id": 2,
+            "_id": 3,
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
             "points": [
-                "Byłam pomocnicą wykładowców na praktykach w uczeniu studentów algorytmów, data analytics, języka programistycznego R i badania daty. "
+                "Helping students to understand Data Analytics, including different approaches and algorithms"
             ],
             "skills": [
                 "R, R Studio, Weka"
             ]
         },
         {
-            "_id": 3,
+            "_id": 4,
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
             "points": [
@@ -46,7 +57,7 @@
             ]
         },
         {
-            "_id": 4,
+            "_id": 5,
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
             "points": [
@@ -56,17 +67,6 @@
             "skills": [
                 "Excel, PL/SQL"
             ]
-        },
-        {
-            "_id": 5,
-            "title": "Stint",
-            "job": "Frontend Mobile Engineer",
-            "points": [
-                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
-            ],
-            "skills": [
-                "React Native, TypeScript, Python, GraphQL"
-            ]
         }
     ],
     "education": [
@@ -75,13 +75,19 @@
             "institution": "Edinburgh Napier University",
             "course": "BEng Computing",
             "grade": "2:1",
-            "final_project": "Rozprawa: Proof of Concept — aplikacja mobilna do spersonalizowanej turystyki na Androida"
+            "final_project": "Dissertation: Proof of Concept - Android Mobile Application for Customised Tourism"
         },
         {
             "_id": 1,
             "institution": "West College Scotland",
-            "course": "Tworzenie Gier Komputerowych",
+            "course": "Computer Games Development",
             "grade": "HNC & HND"
         }
-    ]
+    ],
+    "about_me": {
+        "introduction":"I am currently working as a full-stack Software Engineer for Stint in London. My hobbies includes:",
+        "hobbies" : ["📚 Lire des livres 📚"," ⚛️ Programmer des projets parallèles dans Unity, React and Python 🐍", "📜 Histoire 🏺", "🇫🇷 Apprendre des langues (currently I am studying French) 🇫🇷"],
+        "interests": "My interests are focused on the impact of technology on people's everyday life and how technology can improve things.",
+        "ending": "To find out more about me scroll down 😊"
+    }
 }

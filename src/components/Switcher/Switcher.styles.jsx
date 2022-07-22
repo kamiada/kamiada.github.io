@@ -24,5 +24,5 @@ export const SwitchButton = styled.button`
   font-family: "Source Sans Pro", sans-serif;
   display: inline;
   cursor: pointer;
-  color: black;
+  color: white;
 `;
