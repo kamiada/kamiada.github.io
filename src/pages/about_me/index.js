@@ -10,7 +10,6 @@ import {
 const AboutMe = ({ id }) => {
   const { language } = useContext(LanguageContext);
   const data = dictionaryList[language][id];
-  console.log(data);
   return (
     <Layout>
       <div id="about" className="page_container">
