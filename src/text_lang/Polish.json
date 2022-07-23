@@ -7,10 +7,10 @@
             "title": "Stint",
             "job": "Frontend Mobile Engineer",
             "points": [
-                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
+                "Implementacja nowych elementów i funkcji w aplikacji mobilnej, która jest głównym produktem naszej firmy. Aplikacja ta działa na Androidzie i iOS, więc musiałam testować i sprawdzać, czy nowe zmiany działają na obu systemach, współpracując w tym celu z projektantami i testerami. Poza tym, updejtowałam system z JavaScript i Redux, do TypeScript i GraphQL. Na Backendzie zajmowałam się budowaniem nowych microservices w Pythonie i Rust, popychając je do chmur hostowanych przez AWS."
             ],
             "skills": [
-                "React Native, TypeScript, Python, GraphQL"
+                "React Native, TypeScript, Python, GraphQL, AWS"
             ]
         },
         {
@@ -19,7 +19,7 @@
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
             "points": [
-                "Working closely with UX designers, researchers, product managers, testers and other engineers in implementing excellent user experience and finding way to make voters more engaged in elections"
+                "Wspołpracowałam z bardzo zdolnym i różnorodnym zespołem złożonym z UX projektantów, inżynierów, badaczy, managerów i testerów. Naszym zadaniem była budowa jak najbardziej atrakcyjnego dla użytkowników interfejsu, w celu zachęcenia użytkowników i wyborców do głosowania i zainteresowania ich wyborami w Irelandii Północnej. Z technologii, których używałam w zespole w tym czasie, to React.JS i GoLang na backendzie."
             ],
             "skills": [
                 "React.JS, Go"
