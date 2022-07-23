@@ -67,8 +67,8 @@
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
             "points": [
-                "Helping users with using financial systems in the University of Edinburgh, often with the use of remote desktop control (Bomgar) or PL/SQL",
-                "Fixing and helping in managing database"
+                "Pomagałam użytkownikom w korzystaniu z systemu finansowego Uniwersytetu Edynburskiego. W tym celu musiałam robić zmiany w databasie używając PL/SQL i remote control (Bomgar).",
+                "Poprawki i updejty w finansowej databazie uniwersytetu"
             ],
             "skills": [
                 "Excel, PL/SQL"
