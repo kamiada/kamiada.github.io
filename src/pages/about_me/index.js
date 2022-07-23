@@ -27,8 +27,8 @@ const AboutMe = ({ id }) => {
                   <>
                     <p>{data.introduction}</p>
                     <ul>
-                      {data.hobbies.map((hobby) => (
-                        <li>{hobby}</li>
+                      {data.hobbies.map((hobby, key) => (
+                        <li key={key}>{hobby}</li>
                       ))}
                     </ul>
                     <p>{data.interests}</p>

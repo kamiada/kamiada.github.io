@@ -40,9 +40,9 @@ const Work = ({ id, id2 }) => {
         <div className="holder">
           <div className="section_title">Work Experience</div>
           {jobExperience.length > 0
-            ? jobExperience.map((entry) => (
+            ? jobExperience.map((entry, key) => (
                 <Tile
-                  key={entry.image}
+                  key={`${key} +${entry}`}
                   image={generateImage(entry.title)}
                   alt={entry.image}
                   company={entry.title}
@@ -55,9 +55,9 @@ const Work = ({ id, id2 }) => {
           <div className="section_title">Education</div>
 
           {educationb.length > 0
-            ? educationb.map((entry) => (
+            ? educationb.map((entry, key) => (
                 <Tile
-                  key={entry.image}
+                  key={`${key} +${entry}`}
                   image={generateImage(entry.institution)}
                   alt={entry.image}
                   company={entry.institution}
