@@ -55,7 +55,7 @@
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
             "points": [
-                "My summer project was developing  tracking tool focused on gathering user data regarding how users are using Workpro software in their everyday tasks. After gathering, the data is sent via web services to the database creating a new table. All the information in this table later is used for generating bar charts and Sankey diagrams on the website, in order to visualize the user's journey and usage of each feature per user."
+                "Moim projektem w czasie tego internshipu była budowa narzędzia do obserwacji użytkowników. Ten software, był kodem umieszczonym w legacy code produktu firmy. Pozwalało to zobaczyć, na której stronie użytkowników przebywa najdłużej, na którą przechodzi następnie. Zebrana data była potem wysyłana do databasy, tworzyła nowy stolik z id użytkownika i ostatecznie cała ta data, potem była przesyłana z powrotem to frontendu aplikacji, gdzie w postaci Sankey Diagramu pokazywała cały flow działań, tak zwanej - drogi - użytkownika od zalogowania do zamknięcia produktu."
             ],
             "skills": [
                 "C#, .NET, JavaScript"
