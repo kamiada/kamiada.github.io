@@ -24,8 +24,10 @@ function App() {
     <LanguageContext.Provider value={{ language, toggleLanguage }}>
     <Fragment>
       <div className="App">
-      <Switcher onClick={() => setLanguage()} />
+        <div className="menu-container">
+        <Switcher onClick={() => setLanguage()} />
         <Menu />
+        </div>
         <Profile id="profile" />
         <AboutMe id="about_me"/>
         <Work id="jobExperience" id2="education"/>

@@ -1,15 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 10em;
   position: -webkit-sticky;
   position: sticky;
-  left: 0;
-  top: 0;
-  width: 100%;
-  top: 10px;
-  z-index: 5;
-  float: right;
 `;
 export const SwitchButton = styled.button`
   color: #fff;
@@ -24,5 +17,5 @@ export const SwitchButton = styled.button`
   font-family: "Source Sans Pro", sans-serif;
   display: inline;
   cursor: pointer;
-  color: white;
+  color: black;
 `;

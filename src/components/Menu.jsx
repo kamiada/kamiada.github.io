@@ -4,7 +4,7 @@ import "./components.scss";
 
 const Menu = () => {
   return (
-    <div className="menu-container">
+    <div>
         <nav className="navbar">
           <ul>
             <li>
