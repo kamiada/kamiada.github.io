@@ -30,10 +30,12 @@ a {
 .menu-container {
   position: -webkit-sticky;
   position: sticky;
+  margin: 0;
   left: 0;
   top: 0;
+  padding-top: 1px;
+  display: flex;
   z-index: 5;
-  margin-left: 20px;
   color: black;
   background-color: white;
   ul {
