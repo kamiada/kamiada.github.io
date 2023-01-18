@@ -3,8 +3,20 @@ import { Link } from "react-scroll";
 import "./components.scss";
 
 const Menu = () => {
+  const showMenu = () => {
+    let topNav = document.getElementById('topNav');
+    if (topNav.style.display === "block") {
+      topNav.style.display = "none";
+    } else {
+      topNav.style.display = "block";
+    }
+  };
   return (
-    <div className="topNav">
+    <div>
+      <button className="mobile_menu" onClick={() => showMenu()}>
+        Menu
+      </button>
+      <div className="topNav" id="topNav">
         <nav className="navbar">
           <ul>
             <li>
@@ -34,6 +46,7 @@ const Menu = () => {
             </li>
           </ul>
         </nav>
+      </div>
     </div>
   );
 };
