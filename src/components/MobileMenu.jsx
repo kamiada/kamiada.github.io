@@ -4,7 +4,7 @@ import "./components.scss";
 
 const Menu = () => {
   return (
-    <div className="topNav">
+    <div>
         <nav className="navbar">
           <ul>
             <li>
@@ -37,5 +37,3 @@ const Menu = () => {
     </div>
   );
 };
-
-export default Menu;
