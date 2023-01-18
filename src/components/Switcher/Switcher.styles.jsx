@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   position: -webkit-sticky;
   position: sticky;
+  width: 90%;
+
 `;
 export const SwitchButton = styled.button`
   color: #fff;
