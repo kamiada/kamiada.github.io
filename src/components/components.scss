@@ -26,45 +26,59 @@ a {
   }
 }
 
-.menu-container {
-    position: -webkit-sticky;
-    position: sticky;
-    margin: 0;
-    left: 0;
-    top: 0;
-    padding-top: 1px;
-    display: flex;
-    z-index: 5;
-    color: black;
-    background-color: white;
-    ul {
-      list-style: none;
-      
-    }
-    li {
-      font-size: 20px;
-      font-weight: bold;
-      font-family: "Source Sans Pro", sans-serif;
-      margin-right: 10px;
-      display: inline;
-      cursor: pointer;
-      @media only screen and (max-width: 600px) {
-        display: block;
-        cursor: pointer;
-      }
-    }
+#navbar {
+  display: none;
+  transition: 0.5s ease;
+
+  @media only screen and (min-width: 600px) {
+    display: block;
+    cursor: pointer;
+  }
 }
 
-.topNav {
-  @media only screen and (max-width: 600px) {
-    display: none;
+input[type="checkbox"]:checked ~ #navbar {
+  display: block;
+  transition: 0.5s ease;
+
+}
+
+.menu-container {
+  position: -webkit-sticky;
+  transition: 0.5s ease;
+  position: sticky;
+  margin: 0;
+  left: 0;
+  top: 0;
+  padding-top: 1px;
+  display: flex;
+  z-index: 5;
+  color: black;
+  background-color: white;
+  ul {
+    list-style: none;
+    transition: 0.5s ease;
+
+  }
+  li {
+    transition: 0.5s ease;
+
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-right: 10px;
+    display: inline;
+    cursor: pointer;
+    @media only screen and (max-width: 600px) {
+      display: block;
+      cursor: pointer;
+    }
   }
 }
 
 .mobile_menu {
   padding: 14px 16px;
-  position:relative; 
-  top:2px;
+  position: relative;
+  top: 2px;
   font-weight: bold;
   background-color: transparent;
   font-family: "Source Sans Pro", sans-serif;
