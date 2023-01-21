@@ -1,7 +1,6 @@
 @import "../../variables";
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap");
 
 .background_layout {
   height: 100vh;
@@ -11,21 +10,34 @@
 .layout_aboutme {
   margin: 0;
   position: relative;
-  background: #56CCF2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #13C1E9, #2F80ED );  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #13C1E9, #2F80ED ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #13c1e9,
+    #2f80ed
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #13c1e9,
+    #2f80ed
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-
 
 .page_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #56CCF2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #13C1E9, #2F80ED );  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #13C1E9, #2F80ED ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #13c1e9,
+    #2f80ed
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #13c1e9,
+    #2f80ed
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .padding_between_pages {
@@ -35,37 +47,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  @media (max-width:960px) { 
-    flex-direction: column;
-  }
+  flex-direction: row;
 }
 
 .text_container {
-  border-radius: 20%;
-  width: 400px;
-  height: 600px;
+  width: 250px;
+  height: 300px;
+  border-radius: 50px;
   background-color: $sailorblue;
-  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-family: "Zen Kaku Gothic New", sans-serif;
   font-size: 16px;
   color: black;
   display: flex;
   align-items: center;
-  @media (max-width:960px) { 
+  @media (max-width: 960px) {
     margin-top: 10px;
+  }
+  @media only screen and (min-width: 801px) {
+    width: 300px;
+    height: 500px;
   }
 }
 
 .picture_container {
-  border-radius: 20%;
-  width: 400px;
-  height: 600px;
+  border-radius: 50px;
   background-color: $sailorblue;
   margin-right: 10px;
   img {
+    width: 250px;
+    height: 300px;
     object-fit: cover;
-    border-radius: 20%;
-    width: 400px;
-    height: 600px;
+    border-radius: 50px;
+  }
+  @media only screen and (min-width: 801px) {
+    width: 300px;
+    height: 500px;
+    img {
+      width: 300px;
+      height: 500px;
+    }
   }
 }
 .section_title--aboutMe {

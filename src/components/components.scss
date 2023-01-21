@@ -165,9 +165,7 @@ img {
 }
 .tile_parent {
   display: flex;
-  
- 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 950px) {
     align-self: baseline;
     width: 100%;
     margin-left: 40px;
