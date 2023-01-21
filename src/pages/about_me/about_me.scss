@@ -96,5 +96,14 @@
   text-align: center;
 }
 .text_itself {
-  padding: 40px;
+  padding: 30px;
+  p {
+    margin: 0px;
+  }
+  li {
+    list-style-type: none;
+  }
+  ul {
+    margin:0px;
+  }
 }
