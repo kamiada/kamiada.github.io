@@ -26,21 +26,27 @@ a {
   }
 }
 
-#navbar {
-  display: none;
-  transition: 0.5s ease;
+// #navbar {
+//   display: none;
+//   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 
-  @media only screen and (min-width: 600px) {
-    display: block;
-    cursor: pointer;
-  }
-}
+//   @media only screen and (min-width: 600px) {
+//     display: block;
+//     cursor: pointer;
+//     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+//   }
+// }
 
-input[type="checkbox"]:checked ~ #navbar {
-  display: block;
-  transition: 0.5s ease;
-
-}
+// input[type="checkbox"]:checked ~ #navbar {
+//   display: block;
+//   transition: 1.5s ease;
+// }
+// input[type="checkbox"] {
+//   transition: 0.5s ease;
+// }
+// nav {
+//   transition: 1.5s ease;
+// }
 
 .menu-container {
   position: -webkit-sticky;
@@ -56,7 +62,7 @@ input[type="checkbox"]:checked ~ #navbar {
   background-color: white;
   ul {
     list-style: none;
-    transition: 0.5s ease;
+    transition: 1.5s ease;
 
   }
   li {
@@ -75,20 +81,20 @@ input[type="checkbox"]:checked ~ #navbar {
   }
 }
 
-.mobile_menu {
-  padding: 14px 16px;
-  position: relative;
-  top: 2px;
-  font-weight: bold;
-  background-color: transparent;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
-  display: inline;
-  float: right;
-  @media only screen and (min-width: 600px) {
-    display: none;
-  }
-}
+// .mobile_menu {
+//   padding: 14px 16px;
+//   position: relative;
+//   top: 2px;
+//   font-weight: bold;
+//   background-color: transparent;
+//   font-family: "Source Sans Pro", sans-serif;
+//   font-size: 20px;
+//   display: inline;
+//   float: right;
+//   @media only screen and (min-width: 600px) {
+//     display: none;
+//   }
+// }
 
 img {
   width: 300px;
@@ -159,9 +165,13 @@ img {
 }
 .tile_parent {
   display: flex;
-  align-self: baseline;
-  width: 100%;
-  margin-left: 40px;
+  
+ 
+  @media only screen and (min-width: 600px) {
+    align-self: baseline;
+    width: 100%;
+    margin-left: 40px;
+  }
 }
 .tile_text_container {
   display: flex;
