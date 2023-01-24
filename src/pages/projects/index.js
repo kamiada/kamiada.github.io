@@ -15,8 +15,8 @@ import projects from "./projects.json";
 const Projects = () => {
   return (
     <Layout>
-      <div className="section_title_projects">Some Of My Most Recent Side-Projects</div>
-      <div className="projects-container" id="projects">
+      <div  id="projects" className="section_title_projects">Some Of My Most Recent Side-Projects</div>
+      <div className="projects-container">
         <div className="table">
           <Panel
             image={MendleevTable}

@@ -17,6 +17,10 @@ button {
 a {
   font-family: "Source Sans Pro", sans-serif;
 }
+a:link {
+  text-decoration: none;
+  color: black;
+}
 
 .button-component {
   button {
@@ -54,6 +58,10 @@ a {
     font-family: "Source Sans Pro", sans-serif;
     display: inline;
     cursor: pointer;
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
 }
 img {

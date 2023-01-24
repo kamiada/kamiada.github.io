@@ -8,24 +8,17 @@ const Menu = () => {
       <nav id="navbar">
         <ul>
           <li id="links">
-            <Link activeClass="active" to="work_id" spy={true} smooth={true}>
-              .work
-            </Link>
+            <a href="#work_id">work.</a>
           </li>
           <li id="links">
-            <Link to="#projects" spy={true} smooth={true}>
-              .projects
-            </Link>
+            <a href="#projects">.projects</a>
           </li>
           <li id="links">
-            <Link to="#contact" spy={true} smooth={true}>
-              .contact
-            </Link>
+            <a href="#contact">.contact</a>
           </li>
         </ul>
       </nav>
     </div>
   );
 };
-
 export default Menu;

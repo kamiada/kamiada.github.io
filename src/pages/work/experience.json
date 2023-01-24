@@ -18,7 +18,7 @@
             "_id": 2,
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
-            "points": ["Helping students to understand Data Analytics, including different approaches and algorithms"],
+            "points": ["Helped students to understand Data Analytics, including different approaches and algorithms"],
             "skills":["R, R Studio, Weka"]
         },
         {
@@ -32,7 +32,7 @@
             "_id": 4,
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
-            "points": ["Helping users with using financial systems in the University of Edinburgh, often with the use of remote desktop control (Bomgar) or PL/SQL", "Fixing and helping in managing database"],
+            "points": ["I was helping users with using financial systems in the University of Edinburgh, often with the use of remote desktop control (Bomgar) or PL/SQL", "Fixing and helping in managing database"],
             "skills":["Excel, PL/SQL"]
         },
         {

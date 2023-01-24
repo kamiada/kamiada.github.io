@@ -40,7 +40,7 @@ const Profile = ({ id, id2 }) => {
             </div>
 
             <div className="about_me_holder">
-              <div class="underlay"></div>
+              <div className="underlay"></div>
 
               <div className="little_profile">
                 <span>{text.introduction}</span>
