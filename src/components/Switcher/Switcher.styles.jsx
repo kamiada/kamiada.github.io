@@ -6,7 +6,7 @@ export const Container = styled.div`
   @media only screen and (max-width: 600px) {
     width: 90%;
   }
-
+  width: 80%;
 `;
 export const SwitchButton = styled.button`
   color: #fff;
