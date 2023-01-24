@@ -1,4 +1,4 @@
-import { Profile, Projects, AboutMe, Work, Contact } from "../src/pages";
+import { Profile, Projects, Work, Contact } from "../src/pages";
 import { Menu } from "../src/components";
 import "./app.scss";
 import { Fragment, useState } from "react";

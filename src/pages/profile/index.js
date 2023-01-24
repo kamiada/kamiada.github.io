@@ -1,6 +1,5 @@
 import React, { Fragment, useContext } from "react";
 import { profilePic } from "../../images";
-import { Link } from "react-scroll";
 import "./sea-profile.scss";
 import { Layout } from "../../components";
 import {
