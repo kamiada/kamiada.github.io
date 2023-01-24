@@ -36,9 +36,9 @@ const Work = ({ id, id2 }) => {
 
   return (
     <Layout>
-      <div className="work_container" id="work">
+      <div className="work_container">
         <div className="holder">
-          <div className="section_title">Work Experience</div>
+          <div className="section_title" id="work_id">Work Experience</div>
           {jobExperience.length > 0
             ? jobExperience.map((entry, key) => (
                 <Tile

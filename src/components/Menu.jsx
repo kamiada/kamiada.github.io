@@ -8,17 +8,17 @@ const Menu = () => {
       <nav id="navbar">
         <ul>
           <li id="links">
-            <Link to="work" spy={true} smooth={true}>
+            <Link activeClass="active" to="work_id" spy={true} smooth={true}>
               .work
             </Link>
           </li>
           <li id="links">
-            <Link to="projects" spy={true} smooth={true}>
+            <Link to="#projects" spy={true} smooth={true}>
               .projects
             </Link>
           </li>
           <li id="links">
-            <Link to="contact" spy={true} smooth={true}>
+            <Link to="#contact" spy={true} smooth={true}>
               .contact
             </Link>
           </li>

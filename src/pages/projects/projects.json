@@ -12,19 +12,6 @@
         },
         {
             "_id": 1,
-            "title": "Covid-19 dashboards!",
-            "tags": [
-                "React.Js",
-                "Chart.JS",
-                "Node.JS",
-                "JavaScript"
-            ],
-            "alt":"Screenshot of mini-project about dashboard for covid19 data",
-            "post": "I started this side project in January 2021, after a year of lockdowns in UK, in order to have visual way to compare the statistics and to learn about Chart.JS library for JavaScript. There are other programming libraries which are using even better looking charts, but I liked the simplicity of that one. The data for this project was taken from  European Centre for Disease Prevention and Control. The main challange in this project was to create filters, which would allow user to filter per interesting for them countries, months and parameters; and manipulating data so it could fit different charts.",
-            "github": "https://github.com/kamiada/chart_dashboard"
-        },
-        {
-            "_id": 2,
             "title": "Live!",
             "tags": [
                 "React.Js",
@@ -37,7 +24,7 @@
             "github": "https://github.com/bbc/hackathon2020/tree/8-hacking-circus/8-hacking-circus/frontend/live"
         },
         {
-            "_id": 3,
+            "_id": 2,
             "title": "Mobile app for customised tourism",
             "tags": [
                 "Android",
@@ -49,7 +36,7 @@
             "outsideLinks": ["https://bcswomenlovelace.bcs.org/?page_id=286", "https://bcswomenlovelace.bcs.org/wp-content/uploads/Abstractbook2020BCSWomen_Lovelace_Colloquium.pdf"]
         },
         {
-            "_id": 4,
+            "_id": 3,
             "title": "Tracker",
             "tags": [
                 "C#.Net",
@@ -61,23 +48,7 @@
             "post": "Tracker (or more accuretly: trackers) are my internship project which I have done for Computer Application Services in Edinburgh, during summer 2019. CAS has it's software WorkPro focused on integrating with web forms, social media and company systems, allowing HR and other this type of departments better workflow - both for them and their users. But in order to improve WorkPro and understand how users are using it - what features are the most popular, what features are rarely used or even should be removed, we needed a data about users behaviour. Therefore, my project was focused on gathering this data, by creating trackers on each page, which user enters. When users move to another page - tracker dies and sends info to our database, with user's randomly generated id. Then on next page on which user is, new tracker is following user, till again, user moves to another page and so on. The data then is used to generate Sankey diagram with use of Google Charts (JS library for generating graphs and diagrams). This project taught me a lot about data analytics, data gathering and working on large, old codebases like the one for WorkPro. Most of the programming was done with use of C#.Net and in some parts - JavaScript. The most challanging part of the project was flattening data - Google Charts requires for Sankey flat data with no repeating 'locations'. I am proud to say, that by the September the project was working and performing and in 2020, was officially added to WorkPro as one of the admin features to collect users behaviour for better performance of the software"
         },
         {
-            "_id": 5,
-            "title": "Panda Mediator",
-            "tags": [
-                "Unity",
-                "Game",
-                "C#",
-                "Point & Click",
-                "Time constraints"
-            ],
-            "post": "The theme of the Global Game Jam in January 2020 where relationships, therefore over the weekend me and my friend build this little game. My friend Marco took care of the design and art, while I programmed the game and sorted other things in Unity Engine. In game player plays the Panda Mediator, who's task is to fulfil the wishes of the Crocodile Dictator over the phone. Player needs to run around the room and randomly pick food which Dictator wants, but his needs changes very quickly. Game is set for the player to fail no matter what, because it's impossible to fulfil the needs of the dictator, no matter how hard player tries.",
-            "links": [
-                "https://globalgamejam.org/2020/games/panda-mediator-6"
-            ],
-            "github": "https://github.com/kamiada/GameJam2020"
-        },
-        {
-            "_id": 6,
+            "_id": 4,
             "title": "Arctica",
             "tags": [
                 "Unity",
@@ -91,22 +62,7 @@
             ]
         },
         {
-            "_id": 7,
-            "title": "Feel my feels",
-            "tags": [
-                "Unity",
-                "Game",
-                "C#",
-                "Multiplayer"
-            ],
-            "post": "The theme of the Global Game Jam in January 2018 where feelings. Me and my other three teammates decided to build multiplayer game where users needs to make the other person feel same way how they feel - due to the short time our extremely talented artist managed to create just two feelings-character: love and anger. Players can use controllers to control them and steal from each other little followers who change their appearance depending to which feeling dominates them. The swift and difficult movement adds playablity to the game and more fun (at least in my opinion). My work during this project was programming alongside two other programmers. I was taking care of the player's characters, while my other teammate was programming menu and another one AI for followers.",
-            "links": [
-                "https://kamiada.itch.io/feel-my-feels"
-            ],
-            "github": "https://github.com/marcomoroni/ggj-2018"
-        },
-        {
-            "_id": 8,
+            "_id": 5,
             "title":"Redesign of Natural History Museum webpage",
             "tags": [
                 "React.JS",
@@ -116,7 +72,7 @@
             "github":"https://kamiada.github.io/Natural-History-Museum-in-React/"
         },
         {
-            "_id": 9,
+            "_id": 6,
             "title":"The Duality of Choice",
             "tags": [
                 "React.JS",
