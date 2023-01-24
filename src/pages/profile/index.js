@@ -11,7 +11,6 @@ import {
 const Profile = ({ id, id2 }) => {
   const { language } = useContext(LanguageContext);
   const text = dictionaryList[language][id2];
-  console.log(text);
   return (
     <Fragment>
       <Layout>
@@ -31,8 +30,9 @@ const Profile = ({ id, id2 }) => {
               />
               <span>{dictionaryList[language][id]}</span>
             </div>
-            <div className="text-holder">
-            <span>{dictionaryList[language][text.introduction]}</span>
+            <div className="little_profile">
+            <span>{text.introduction}</span>
+            <span>{text.rest}</span>
             </div>
           </div>
         </div>
