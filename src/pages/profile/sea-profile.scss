@@ -60,6 +60,10 @@
   margin-right: 50px;
   margin-bottom: 0px;
   margin-left: 0px;
+  @media only screen and (min-width: 600px) { 
+    width: 30%;
+    font-size: 22px;
+  }
 }
 .little_profile {
   font-family: 'Solitreo', cursive;
