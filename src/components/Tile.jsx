@@ -14,11 +14,11 @@ class Tile extends Component {
         </div>
         <div className="tile_education_holder">
           <span className="job_title">{this.props.job_title}</span>
-          <div>
+          <div className="grade">
             <span>{this.props.grade}</span>
           </div>
-          <div>
-            <span>{this.props.final_project}</span>
+          <div className="final_project">
+            <span >{this.props.final_project}</span>
           </div>
         </div>
 
