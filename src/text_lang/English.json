@@ -10,10 +10,12 @@
             "title": "Stint",
             "job": "Frontend Mobile Engineer",
             "points": [
+                "Customising key-cloak authentication system for mobile and web users, both internal and external",
+                "",
                 "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
             ],
             "skills": [
-                "React Native, TypeScript, Python, GraphQL"
+                "React Native, TypeScript, Python, GraphQL, Flutter"
             ]
         },
         {
@@ -21,10 +23,11 @@
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
             "points": [
-                "Working closely with UX designers, researchers, product managers, testers and other engineers in implementing excellent user experience and finding way to make voters more engaged in elections"
+                "Collaborating with UX designers, researchers, product managers and testers on building new features and visuals for BBC News page to get voters more engaged in Northern Ireland Elections 2022",
+                "Developing experimental frontend elements for testing purposes"
             ],
             "skills": [
-                "React.JS, Go"
+                "React.JS, Go, React testing library"
             ]
         },
         {
@@ -32,10 +35,12 @@
             "title": "BBC Archive Services",
             "job": "Fullstack Software Engineer",
             "points": [
-                "Helping in building internal search engine"
+                "Building internal search engine for Archive Search video and audio assets",
+                "Implementing automated testing with Cypress",
+                "Sharing knowledge of React with other engineers"
             ],
             "skills": [
-                "React.JS, Node.JS, AWS, Elastic Search"
+                "React.JS, Node.JS, AWS, Elastic Search, Jest, Cypress"
             ]
         },
         {
@@ -43,7 +48,8 @@
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
             "points": [
-                "Helping students to understand Data Analytics, including different approaches and algorithms"
+                "Helping students to understand Data Analytics",
+                "Explaining different approaches and algorithms"
             ],
             "skills": [
                 "R, R Studio, Weka"
@@ -54,10 +60,10 @@
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
             "points": [
-                "My summer project was developing  tracking tool focused on gathering user data regarding how users are using Workpro software in their everyday tasks. After gathering, the data is sent via web services to the database creating a new table. All the information in this table later is used for generating bar charts and Sankey diagrams on the website, in order to visualize the user's journey and usage of each feature per user."
+                "Project: tracking tool focused on gathering user engagement data. The data was later on programmatically cleaned and used to display Sankey diagram with user journey and user usage of app's tools."
             ],
             "skills": [
-                "C#, .NET, JavaScript"
+                "C#, .NET, JavaScript, Google Charts"
             ]
         },
         {
@@ -65,7 +71,8 @@
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
             "points": [
-                "Helping users with using financial systems in the University of Edinburgh, often with the use of remote desktop control (Bomgar) or PL/SQL",
+                "Helping users with operating financial systems",
+                "Fixing and updating systems with use of PL/SQL queries",
                 "Fixing and helping in managing database"
             ],
             "skills": [
