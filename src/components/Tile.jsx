@@ -9,8 +9,8 @@ class Tile extends Component {
         <div className="img_holder">
           <img src={this.props.image} alt={this.props.alt} />
         </div>
-        <div>
-          <span className="company">{this.props.company}</span>
+        <div className="company">
+          <span>{this.props.company}</span>
         </div>
         <div className="tile_education_holder">
           <span className="job_title">{this.props.job_title}</span>
@@ -18,7 +18,7 @@ class Tile extends Component {
             <span>{this.props.grade}</span>
           </div>
           <div className="final_project">
-            <span >{this.props.final_project}</span>
+            <span>{this.props.final_project}</span>
           </div>
         </div>
 
