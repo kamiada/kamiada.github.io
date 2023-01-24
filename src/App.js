@@ -29,7 +29,6 @@ function App() {
         <Menu />
         </div>
         <Profile id="profile" />
-        <AboutMe id="about_me"/>
         <Work id="jobExperience" id2="education"/>
         <Projects />
         <Contact />
