@@ -9,12 +9,17 @@ import {
 
 const Profile = ({ id, id2 }) => {
   const { language } = useContext(LanguageContext);
+  const profile_text = dictionaryList[language][id];
   const text = dictionaryList[language][id2];
   return (
     <Fragment>
       <Layout>
         <div className="master_container" id="home">
-          <svg id="top_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <svg
+            id="top_svg"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
             <path
               fill="#49018C"
               fill-opacity="1"
@@ -27,13 +32,16 @@ const Profile = ({ id, id2 }) => {
                 src={profilePic}
                 alt="woman who build and owns this website"
               />
-              <span>{dictionaryList[language][id]}</span>
+              <span>{profile_text.welcome}</span>
+              <span>{profile_text.profile}</span>
             </div>
-            <div className="little_profile">
-            <span>{text.introduction}</span>
-            </div>
-            <div className="little_profile">
-            <span>{text.rest}</span>
+            <div className="about_me_holder">
+              <div className="little_profile">
+                <span>{text.introduction}</span>
+              </div>
+              <div className="little_profile">
+                <span>{text.rest}</span>
+              </div>
             </div>
           </div>
         </div>

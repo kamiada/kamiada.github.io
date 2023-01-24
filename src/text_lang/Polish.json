@@ -1,9 +1,12 @@
 {
-    "profile": "Cześć! Nazywam się Adrianna. Jestem programistką, obecnie pracującą w Stint",
+    "profile": {
+        "welcome": "Cześć!",
+        "profile": "Nazywam się Adrianna. Jestem programistką, obecnie pracującą w Stint"
+    },
     "jobExperience": [
         {
             "_id": 0,
-            "image":"",
+            "image": "",
             "title": "Stint",
             "job": "Frontend Mobile Engineer",
             "points": [
@@ -15,7 +18,7 @@
         },
         {
             "_id": 1,
-            "image":"BBC News logo",
+            "image": "BBC News logo",
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
             "points": [
@@ -27,7 +30,7 @@
         },
         {
             "_id": 2,
-            "image":"BBC Archives Logo",
+            "image": "BBC Archives Logo",
             "title": "BBC Archive Services",
             "job": "Fullstack Software Engineer",
             "points": [
@@ -39,7 +42,7 @@
         },
         {
             "_id": 3,
-            "image":"Logo of Edinburgh Napier University",
+            "image": "Logo of Edinburgh Napier University",
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
             "points": [
@@ -51,7 +54,7 @@
         },
         {
             "_id": 4,
-            "image":"",
+            "image": "",
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
             "points": [
@@ -63,7 +66,7 @@
         },
         {
             "_id": 5,
-            "image":"",
+            "image": "",
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
             "points": [
@@ -78,7 +81,7 @@
     "education": [
         {
             "_id": 0,
-            "image":"",
+            "image": "",
             "institution": "Edinburgh Napier University",
             "course": "BEng Computing",
             "grade": "2:1",
@@ -86,15 +89,20 @@
         },
         {
             "_id": 1,
-            "image":"",
+            "image": "",
             "institution": "West College Scotland",
             "course": "Tworzenie Gier Komputerowych",
             "grade": "HNC & HND"
         }
     ],
     "about_me": {
-        "introduction":"Obecnie pracuję jako full-stack software inżynier w Stincie, w Londynie. Moje hobby to:",
-        "hobbies" : ["📚 Czytanie książek 📚"," ⚛️ Tworzenie osobistych projketów w Unity, React i Pythonie 🐍", "📜 Historia 🏺", "🇫🇷 Nauka języków obcych (obecnie uczę się francuskiego) 🇫🇷"],
+        "introduction": "Obecnie pracuję jako full-stack software inżynier w Stincie, w Londynie. Moje hobby to:",
+        "hobbies": [
+            "📚 Czytanie książek 📚",
+            " ⚛️ Tworzenie osobistych projketów w Unity, React i Pythonie 🐍",
+            "📜 Historia 🏺",
+            "🇫🇷 Nauka języków obcych (obecnie uczę się francuskiego) 🇫🇷"
+        ],
         "interests": "Jestem zainteresowana wpływem technologii na ludzi i jak technologia może poprawić nasze życie.",
         "ending": "Aby dowiedzieć się więcej, zascrolluj poniżej 😊"
     }

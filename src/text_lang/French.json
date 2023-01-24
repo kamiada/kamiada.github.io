@@ -1,5 +1,8 @@
 {
-    "profile":"Bonjour! Je m'appelle Adrianna. Je suis un ingénieur logiciel travaillant actuellement dans Stint",
+    "profile": {
+        "welcome": "Bonjour!",
+        "profile": "Je m'appelle Adrianna. Je suis un ingénieur logiciel travaillant actuellement dans Stint"
+    },
     "jobExperience": [
         {
             "_id": 0,
@@ -85,8 +88,13 @@
         }
     ],
     "about_me": {
-        "introduction":"I am currently working as a full-stack Software Engineer for Stint in London. My hobbies includes:",
-        "hobbies" : ["📚 Lire des livres 📚"," ⚛️ Programmer des projets parallèles dans Unity, React and Python 🐍", "📜 Histoire 🏺", "🇫🇷 Apprendre des langues (currently I am studying French) 🇫🇷"],
+        "introduction": "I am currently working as a full-stack Software Engineer for Stint in London. My hobbies includes:",
+        "hobbies": [
+            "📚 Lire des livres 📚",
+            " ⚛️ Programmer des projets parallèles dans Unity, React and Python 🐍",
+            "📜 Histoire 🏺",
+            "🇫🇷 Apprendre des langues (currently I am studying French) 🇫🇷"
+        ],
         "interests": "My interests are focused on the impact of technology on people's everyday life and how technology can improve things.",
         "ending": "To find out more about me scroll down 😊"
     }
