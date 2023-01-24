@@ -33,6 +33,9 @@ const Profile = ({ id, id2 }) => {
                 alt="woman who build and owns this website"
               />
               <span>{profile_text.welcome}</span>
+              <span>
+                {profile_text.myName} <span className="name">Adrianna</span>
+              </span>
               <span>{profile_text.profile}</span>
             </div>
             <div className="about_me_holder">

@@ -1,7 +1,8 @@
 {
     "profile": {
         "welcome": "Hello!",
-        "profile": " My name is Adrianna. I am frontend software engineer, currently working for Stint and building beautiful websites and mobile apps."
+        "myName": "My name is",
+        "profile": "I am frontend software engineer, currently working for Stint and building beautiful websites and mobile apps."
     },
     "jobExperience": [
         {
