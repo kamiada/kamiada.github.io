@@ -9,26 +9,34 @@
   justify-content: center;
   flex-direction: column;
   font-family: "Source Sans Pro", sans-serif;
-  padding-bottom: 100px;
-  // margin-top: 7%;
-  margin-top: -1%;
-  background-color: #12c2e9; /* fallback for old browsers */
+  // padding-bottom: 100px;
+  margin-top: -10px;
+  // margin-top: -1%;
+  // background-color: #12c2e9; /* fallback for old browsers */
+  // background: -webkit-linear-gradient(
+  //   to bottom,
+  //   #f64f59,
+  //   #c471ed,
+  //   #12c2e9
+  // ); /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(
+  //   to bottom,
+  //   #f64f59,
+  //   #c471ed,
+  //   #12c2e9
+  // ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #49018C; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
-    #f64f59,
-    #c471ed,
-    #12c2e9
+    #49018C,
+    #2F80ED
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  p {
-      color: black;
-      font-size: 20px;
-  }
+    #49018C,
+    #2F80ED
+  );
+
 }
 
 .text-holder {
@@ -38,26 +46,19 @@
   margin-bottom: 50px;
   align-items: center;
   flex-direction: column;
+  color: white;
+  font-size: large;
   img {
     border-radius: 50%;
     width: 200px;
     height: 200px;
     object-fit: cover;
     padding-bottom: 20px;
-
   }
 }  
-.profile-button-scroll {
-  padding: 20px;
-  border-radius: 10px;
-  font-family: "Source Sans Pro", sans-serif;
-  background-color: $sailorblue;
-  font-size: 20px;
-  color: black;
-}
-.top_wave {
-  margin-top: 0%;
-  padding-bottom: 20px;
-  width: 100%;
+
+#top_svg {
+  margin-top:  -40px;
+  padding-top: -10px;
   z-index: -1;
 }

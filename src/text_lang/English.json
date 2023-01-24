@@ -1,5 +1,5 @@
 {
-    "profile": "Hello! My name is Adrianna. I am software engineer currently working for Stint",
+    "profile": "Hello! My name is Adrianna. I am frontend software engineer, currently working for Stint and building beautiful websites and mobile apps.",
     "jobExperience": [
         {
             "_id": 0,
@@ -85,10 +85,8 @@
         }
     ],
     "about_me": {
-        "introduction":"I am currently working as a Frontend Software Engineer in Stint. My hobbies includes:",
-        "hobbies" : ["📚 Reading books 📚"," ⚛️ Creating different side projects 🐍", "📜 History 🏺", "🇫🇷 Learning French 🇫🇷"],
-        "interests": "My interests are focused on the impact of technology on people's everyday life and how technology can improve things.",
-        "ending": "To find out more about me scroll down 😊"
+        "introduction":"My interests are focused on the impact of technology on people's everyday life and how technology can improve things.",
+        "rest": ""
     }
     
 }
