@@ -1,5 +1,6 @@
 @import "../../variables";
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
 
 .profile_container {
   display: flex;
@@ -46,7 +47,30 @@
   }
 }
 
+.name {
+  text-shadow: 2px 2px #ab69ba;
+  font-weight: bold;
+}
+
+.about_me_holder {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  margin-top: 0px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
 .little_profile {
+  font-family: 'Solitreo', cursive;
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ad51ce;
+  border-radius: 5px;
+  padding: 25px;
   color: white;
   word-wrap: break-word;
   margin-top: 10px;
@@ -55,15 +79,20 @@
     opacity: 1;
   }
 }
-
-.about_me_holder {
-  background-color: #ad51ce;
-  width: 50%;
+.underlay {
+  width: 100%;
+  height: 330px;
+  z-index: -1;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background: pink;
+  border: solid 2px black;
   padding: 25px;
   border-radius: 5px;
-}
 
-.name {
-  text-shadow: 2px 2px #AB69BA;
-  font-weight: bold;
+}
+#text_rest {
+  margin-top: 10px;
 }
