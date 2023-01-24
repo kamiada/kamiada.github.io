@@ -10,9 +10,9 @@
             "title": "Stint",
             "job": "Frontend Mobile Engineer",
             "points": [
-                "Customising key-cloak authentication system for mobile and web users, both internal and external",
-                "",
-                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
+                "Developed new features for the mobile application (Android and iOS) in React Native and in the second version of the mobile app, in Flutter",
+                "I worked on customizing key-cloak authentication system for the mobile and web users, both internal and external",
+                "Worked on microservices project"
             ],
             "skills": [
                 "React Native, TypeScript, Python, GraphQL, Flutter"
@@ -23,8 +23,8 @@
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
             "points": [
-                "Collaborating with UX designers, researchers, product managers and testers on building new features and visuals for BBC News page to get voters more engaged in Northern Ireland Elections 2022",
-                "Developing experimental frontend elements for testing purposes"
+                "Collaborated with UX designers, researchers, product managers and testers on building new features and visuals for BBC News page to get voters more engaged in Northern Ireland Elections 2022",
+                "Developed experimental frontend elements for testing purposes, like for example different types of interactive graphs"
             ],
             "skills": [
                 "React.JS, Go, React testing library"
