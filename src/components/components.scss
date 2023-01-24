@@ -118,31 +118,6 @@ img {
   display: flex;
   justify-content: center;
 }
-// .tile_parent {
-//   display: flex;
-//   flex-direction: column;
-
-//   @media only screen and (min-width: 600px) {
-//     align-self: baseline;
-//     width: 100%;
-//     margin-left: 40px;
-//   }
-// }
-// .tile_text_container {
-//   display: flex;
-//   flex-direction: column;
-//   width: 70%;
-//   padding: 10px 20px 30px 40px;
-// }
-// .tile_img_container {
-//   padding-bottom: 10px;
-//   float: right;
-//   padding-right: 20px;
-//   @media only screen and (min-width: 600px) {
-//     padding-right: 2px;
-//   }
-// }
-
 //// TILE
 .company {
   font-size: 20px;
@@ -153,6 +128,7 @@ img {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 10px;
+  text-align: center;
 }
 .tile_description_holder {
   padding-left: 10%;
@@ -161,4 +137,9 @@ img {
 }
 .img_holder {
   padding-bottom: 10px;
+}
+.job_title {
+  font-size: large;
+  letter-spacing: 3px;
+  text-align: center;
 }
