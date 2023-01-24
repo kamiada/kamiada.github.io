@@ -32,6 +32,8 @@ const Profile = ({ id, id2 }) => {
             </div>
             <div className="little_profile">
             <span>{text.introduction}</span>
+            </div>
+            <div className="little_profile">
             <span>{text.rest}</span>
             </div>
           </div>
