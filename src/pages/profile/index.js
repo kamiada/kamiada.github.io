@@ -48,9 +48,6 @@ const Profile = ({ id, id2 }) => {
                   <span>{text.rest}</span>
                 </div>
               </div>
-              {/* <div className="little_profile">
-                <span>{text.rest}</span>
-              </div> */}
             </div>
           </div>
         </div>
