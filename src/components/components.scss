@@ -58,6 +58,7 @@ a:link {
     font-family: "Source Sans Pro", sans-serif;
     display: inline;
     cursor: pointer;
+    text-shadow: 2px 0px 0px pink, 4px 0px 0px paleturquoise, 0 0 0px white;
     a {
       text-decoration: none;
       color: black;
@@ -141,34 +142,11 @@ img {
     margin-top: 5px;
   }
 }
-// .tile_education_holder {
-//   padding-left: 10%;
-//   padding-right: 10%;
-//   padding-top: 10px;
-//   text-align: center;
-// }
-// .tile_description_holder {
-//   padding-left: 10%;
-//   padding-right: 10%;
-//   padding-bottom: 10%;
-//   letter-spacing: 0.5px;
-//   @media only screen and (min-width: 600px) {
-//     width: 90% !important;
-//     padding-bottom: 5%;
-//   }
-// }
-// .img_holder {
-//   padding-bottom: 10px;
-// }
 .job_title {
   font-size: large;
   letter-spacing: 3px;
   text-align: center;
 }
-// .grade,
-// .final_project {
-//   margin-top: 10px;
-// }
 
 ///TILE V2
 .container_tile_master {

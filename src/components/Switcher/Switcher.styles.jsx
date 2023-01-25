@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   position: -webkit-sticky;
@@ -14,7 +14,7 @@ export const SwitchButton = styled.button`
   border: transparent;
   border-radius: 3px;
   background: transparent;
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 30px;
   font-size: 20px;
   font-weight: bold;
@@ -22,4 +22,5 @@ export const SwitchButton = styled.button`
   display: inline;
   cursor: pointer;
   color: black;
+  text-shadow: 2px 0px 0px pink, 4px 0px 0px paleturquoise, 0 0 0px white;
 `;
