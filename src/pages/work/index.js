@@ -62,8 +62,8 @@ const Work = ({ id, id2 }) => {
                   alt={entry.image}
                   company={entry.institution}
                   job_title={entry.course}
+                  points={entry.points}
                   grade={entry.grade}
-                  final_project={entry.final_project}
                 />)
               )
             : ""}

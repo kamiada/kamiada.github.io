@@ -86,13 +86,13 @@
             "institution": "Edinburgh Napier University",
             "course": "BEng Computing",
             "grade": "2:1",
-            "final_project": "Dissertation: Proof of Concept - Android Mobile Application for Customised Tourism"
+            "points": ["Dissertation: Proof of Concept - Android Mobile Application for Customised Tourism"]
         },
         {
             "_id": 1,
             "institution": "West College Scotland",
             "course": "Computer Games Development                                            ",
-            "grade": "National Certificate, Higher National Certificate and Higher National Diploma                                                                   "
+            "points": ["National Certificate, Higher National Certificate and Higher National Diploma                                                                   "]
         }
     ],
     "about_me": {
