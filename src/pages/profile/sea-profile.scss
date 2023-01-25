@@ -83,6 +83,15 @@
   span {
     opacity: 1;
   }
+  @media screen and (max-width: 1216px) {
+    font-size: 19px;
+  }
+  @media screen and (max-width: 894px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 616px) {
+    font-size: 14px;
+  }
 }
 .underlay {
   width: 100%;
