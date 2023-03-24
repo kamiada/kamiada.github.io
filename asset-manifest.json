@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b08f4c80.css",
-    "main.js": "/static/js/main.88bfe47e.js",
+    "main.js": "/static/js/main.9ef09e38.js",
     "static/js/787.b9ec5bb0.chunk.js": "/static/js/787.b9ec5bb0.chunk.js",
     "static/media/NHM.png": "/static/media/NHM.4b0dd12e0e726c900cc3.png",
     "static/media/TheDualityofChoice.png": "/static/media/TheDualityofChoice.d6ddf96c255a39c899dc.png",
@@ -9,6 +9,7 @@
     "static/media/Screenshot 2021-11-27 at 18.17.45.png": "/static/media/Screenshot 2021-11-27 at 18.17.45.83487f088203e8634403.png",
     "static/media/FeelMyFeels.png": "/static/media/FeelMyFeels.246b8fb4a8578dcd9849.png",
     "static/media/pandaMediator.png": "/static/media/pandaMediator.b65af3e256885b9528a0.png",
+    "static/media/HairyAdventure.png": "/static/media/HairyAdventure.6f8315a95359f5077f07.png",
     "static/media/IMG_0001.JPG": "/static/media/IMG_0001.fdf92bff479a6425528f.JPG",
     "static/media/dashboards.png": "/static/media/dashboards.bab7311b347280222d7e.png",
     "static/media/profile.png": "/static/media/profile.31b684a8c840aceb9ae3.png",
@@ -22,11 +23,11 @@
     "static/media/CAS.png": "/static/media/CAS.704a8aa0b7c1e9b40642.png",
     "index.html": "/index.html",
     "main.b08f4c80.css.map": "/static/css/main.b08f4c80.css.map",
-    "main.88bfe47e.js.map": "/static/js/main.88bfe47e.js.map",
+    "main.9ef09e38.js.map": "/static/js/main.9ef09e38.js.map",
     "787.b9ec5bb0.chunk.js.map": "/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b08f4c80.css",
-    "static/js/main.88bfe47e.js"
+    "static/js/main.9ef09e38.js"
   ]
 }
