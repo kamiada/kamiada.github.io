@@ -80,6 +80,15 @@
                 "Node.JS"
             ],
             "github":"https://kamiada.github.io/TheDualityOfChoice/"
+        },
+        {
+            "_id": 7,
+            "title":"Hairy Adventure",
+            "tags": [
+                "Unity",
+                "C#"
+            ],
+            "github":"https://github.com/kamiada/HairyAdventure"
         }
     ]
 }
