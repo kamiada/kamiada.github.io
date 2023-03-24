@@ -66,6 +66,13 @@ const Projects = () => {
             link={projects.projectsDescriptions[6].github}
             tags={projects.projectsDescriptions[6].tags}
           />
+          <Panel
+            image={DualityOfChoice}
+            alt="Reverse platformer build for Global Game Jam 2023"
+            projectTitle={projects.projectsDescriptions[7].title}
+            link={projects.projectsDescriptions[7].github}
+            tags={projects.projectsDescriptions[7].tags}
+          />
         </div>
       </div>
     </Layout>
