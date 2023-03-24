@@ -8,6 +8,7 @@ import {
   Arctica,
   Live,
   DualityOfChoice,
+  HairyAdventure,
 } from "../../images";
 import "./projects.scss";
 import projects from "./projects.json";
@@ -67,7 +68,7 @@ const Projects = () => {
             tags={projects.projectsDescriptions[6].tags}
           />
           <Panel
-            image={DualityOfChoice}
+            image={HairyAdventure}
             alt="Reverse platformer build for Global Game Jam 2023"
             projectTitle={projects.projectsDescriptions[7].title}
             link={projects.projectsDescriptions[7].github}
