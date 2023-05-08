@@ -1,7 +1,16 @@
 import React, { useContext } from "react";
 import "./works.scss";
 import { Layout, Tile } from "../../components";
-import { BBCNews, BBC, Napier, CAS, WCS, UoE, Stint } from "../../images";
+import {
+  BBCNews,
+  BBC,
+  Napier,
+  CAS,
+  WCS,
+  UoE,
+  Stint,
+  Opus2,
+} from "../../images";
 import {
   LanguageContext,
   dictionaryList,
@@ -27,16 +36,18 @@ const Work = ({ id, id2 }) => {
     }
     if (title === "Stint") {
       return Stint;
-    } 
-    if( title === "West College Scotland"){
+    }
+    if (title === "West College Scotland") {
       return WCS;
     }
-    else return Napier;
+    if (title === "Opus 2") {
+      return Opus2;
+    } else return Napier;
   };
 
   return (
     <Layout>
-      <div className="work_container"  id="work_id">
+      <div className="work_container" id="work_id">
         <div className="holder">
           <div className="section_title">Work Experience</div>
           {jobExperience.length > 0
@@ -64,8 +75,8 @@ const Work = ({ id, id2 }) => {
                   job_title={entry.course}
                   points={entry.points}
                   grade={entry.grade}
-                />)
-              )
+                />
+              ))
             : ""}
         </div>
       </div>

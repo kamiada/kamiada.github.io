@@ -6,65 +6,83 @@
     "jobExperience": [
         {
             "_id": 0,
-            "title": "Stint",
-            "job": "Frontend Mobile Engineer",
+            "title": "Opus 2",
+            "job": "Frontend Engineer",
             "points": [
-                "Developing new features for the mobile application (Android and iOS) in React Native, removing legacies from the codebase, updating and making changes to API (GraphQL and Python)"
+                ""
             ],
             "skills": [
-                "React Native, TypeScript, Python, GraphQL"
+                "React, TypeScript, Mobx"
             ]
         },
         {
             "_id": 1,
-            "title": "BBC News",
-            "job": "Fullstack Software Engineer",
+            "title": "Stint",
+            "job": "Frontend Mobile Engineer",
             "points": [
-                "Working closely with UX designers, researchers, product managers, testers and other engineers in implementing excellent user experience and finding way to make voters more engaged in elections"
+                "Developed new features for the mobile application (Android and iOS) in React Native and in the second version of the mobile app, in Flutter",
+                "I worked on customizing key-cloak authentication system for the mobile and web users, both internal and external",
+                "Worked on microservices project"
             ],
             "skills": [
-                "React.JS, Go"
+                "React Native, TypeScript, Python, GraphQL, Flutter"
             ]
         },
         {
             "_id": 2,
-            "title": "BBC Archive Services",
+            "title": "BBC News",
             "job": "Fullstack Software Engineer",
             "points": [
-                "Helping in building internal search engine"
+                "Collaborated with UX designers, researchers, product managers and testers on building new features and visuals for BBC News page to get voters more engaged in Northern Ireland Elections 2022",
+                "Developed experimental frontend elements for testing purposes, like for example different types of interactive graphs"
             ],
             "skills": [
-                "React.JS, Node.JS, AWS, Elastic Search"
+                "React.JS, Go, React testing library"
             ]
         },
         {
             "_id": 3,
+            "title": "BBC Archive Services",
+            "job": "Fullstack Software Engineer",
+            "points": [
+                "Building internal search engine for Archive Search video and audio assets",
+                "Implementing automated testing with Cypress",
+                "Sharing knowledge of React with other engineers"
+            ],
+            "skills": [
+                "React.JS, Node.JS, AWS, Elastic Search, Jest, Cypress"
+            ]
+        },
+        {
+            "_id": 4,
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
             "points": [
-                "Helping students to understand Data Analytics, including different approaches and algorithms"
+                "Helping students to understand Data Analytics",
+                "Explaining different approaches and algorithms"
             ],
             "skills": [
                 "R, R Studio, Weka"
             ]
         },
         {
-            "_id": 4,
+            "_id": 5,
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
             "points": [
-                "My summer project was developing  tracking tool focused on gathering user data regarding how users are using Workpro software in their everyday tasks. After gathering, the data is sent via web services to the database creating a new table. All the information in this table later is used for generating bar charts and Sankey diagrams on the website, in order to visualize the user's journey and usage of each feature per user."
+                "Project: tracking tool focused on gathering user engagement data. The data was later on programmatically cleaned and used to display Sankey diagram with user journey and user usage of app's tools."
             ],
             "skills": [
-                "C#, .NET, JavaScript"
+                "C#, .NET, JavaScript, Google Charts"
             ]
         },
         {
-            "_id": 5,
+            "_id": 6,
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
             "points": [
-                "Helping users with using financial systems in the University of Edinburgh, often with the use of remote desktop control (Bomgar) or PL/SQL",
+                "Helping users with operating financial systems",
+                "Fixing and updating systems with use of PL/SQL queries",
                 "Fixing and helping in managing database"
             ],
             "skills": [

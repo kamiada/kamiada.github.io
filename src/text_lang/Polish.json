@@ -6,6 +6,17 @@
     "jobExperience": [
         {
             "_id": 0,
+            "title": "Opus 2",
+            "job": "Frontend Engineer",
+            "points": [
+                ""
+            ],
+            "skills": [
+                "React, TypeScript, Mobx"
+            ]
+        },
+        {
+            "_id": 1,
             "image": "",
             "title": "Stint",
             "job": "Frontend Mobile Engineer",
@@ -17,7 +28,7 @@
             ]
         },
         {
-            "_id": 1,
+            "_id": 2,
             "image": "BBC News logo",
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
@@ -29,7 +40,7 @@
             ]
         },
         {
-            "_id": 2,
+            "_id": 3,
             "image": "BBC Archives Logo",
             "title": "BBC Archive Services",
             "job": "Fullstack Software Engineer",
@@ -41,7 +52,7 @@
             ]
         },
         {
-            "_id": 3,
+            "_id": 4,
             "image": "Logo of Edinburgh Napier University",
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
@@ -53,7 +64,7 @@
             ]
         },
         {
-            "_id": 4,
+            "_id": 5,
             "image": "",
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
@@ -65,7 +76,7 @@
             ]
         },
         {
-            "_id": 5,
+            "_id": 6,
             "image": "",
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
