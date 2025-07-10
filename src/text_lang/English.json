@@ -7,6 +7,19 @@
     "jobExperience": [
         {
             "_id": 0,
+            "title": "Tesco Bank",
+            "job": "Software Engineer",
+            "points": [
+                "I worked developing greenfield Next.JS applications to support customers in need, making sure that all of the security and quality standards are met. On top of that, I supported the testers and the helped with the process of deploying the apps to the customers ",
+                "Upgraded many security apps that manage sensitive data, from Next 12 to Next 15",
+                "Cooperated closely with designers and testers to develop high standard application for thousands of customers"
+            ],
+            "skills": [
+                "React, TypeScript, Node.JS, Next.JS, AWS, Jest"
+            ]
+        },
+        {
+            "_id": 1,
             "title": "Opus 2",
             "job": "Frontend Engineer",
             "points": [
@@ -17,7 +30,7 @@
             ]
         },
         {
-            "_id": 1,
+            "_id": 2,
             "title": "Stint",
             "job": "Frontend Mobile Engineer",
             "points": [
@@ -30,7 +43,7 @@
             ]
         },
         {
-            "_id": 2,
+            "_id": 3,
             "title": "BBC News",
             "job": "Fullstack Software Engineer",
             "points": [
@@ -42,7 +55,7 @@
             ]
         },
         {
-            "_id": 3,
+            "_id": 4,
             "title": "BBC Archive Services",
             "job": "Fullstack Software Engineer",
             "points": [
@@ -55,7 +68,7 @@
             ]
         },
         {
-            "_id": 4,
+            "_id": 5,
             "title": "Edinburgh Napier University",
             "job": "Student Assistant for Data Analytics Module",
             "points": [
@@ -67,7 +80,7 @@
             ]
         },
         {
-            "_id": 5,
+            "_id": 6,
             "title": "Computer Application Services",
             "job": "Software Engineering Intern",
             "points": [
@@ -78,7 +91,7 @@
             ]
         },
         {
-            "_id": 6,
+            "_id": 7,
             "title": "University of Edinburgh",
             "job": "Finance Helpdesk Officer (Year long placement)",
             "points": [
@@ -97,13 +110,17 @@
             "institution": "Edinburgh Napier University",
             "course": "BEng Computing",
             "grade": "2:1",
-            "points": ["Dissertation: Proof of Concept - Android Mobile Application for Customised Tourism"]
+            "points": [
+                "Dissertation: Proof of Concept - Android Mobile Application for Customised Tourism"
+            ]
         },
         {
             "_id": 1,
             "institution": "West College Scotland",
             "course": "Computer Games Development                                            ",
-            "points": ["National Certificate, Higher National Certificate and Higher National Diploma                                                                   "]
+            "points": [
+                "National Certificate, Higher National Certificate and Higher National Diploma                                                                   "
+            ]
         }
     ],
     "about_me": {

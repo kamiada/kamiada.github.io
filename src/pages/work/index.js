@@ -10,6 +10,7 @@ import {
   UoE,
   Stint,
   Opus2,
+  TescoBank,
 } from "../../images";
 import {
   LanguageContext,
@@ -42,6 +43,9 @@ const Work = ({ id, id2 }) => {
     }
     if (title === "Opus 2") {
       return Opus2;
+    }
+    if (title === "Tesco Bank") {
+      return TescoBank;
     } else return Napier;
   };
 

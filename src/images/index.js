@@ -17,9 +17,10 @@ import PandaMediator from "./pandaMediator.png";
 import Dashboards from "./dashboards.png";
 import MendleevTable from "./Screenshot 2021-11-27 at 18.17.45.png";
 import DualityOfChoice from "./TheDualityofChoice.png";
-import Stint from './stintLogo.png';
-import HairyAdventure from './HairyAdventure.png';
-import Opus2 from './opus2.jpg';
+import Stint from "./stintLogo.png";
+import HairyAdventure from "./HairyAdventure.png";
+import Opus2 from "./opus2.jpg";
+import TescoBank from "./tesco_bank_logo.png";
 export {
   Stint,
   DualityOfChoice,
@@ -42,5 +43,6 @@ export {
   WCS,
   UoE,
   HairyAdventure,
-  Opus2
+  Opus2,
+  TescoBank,
 };
